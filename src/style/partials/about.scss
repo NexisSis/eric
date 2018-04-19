@@ -41,6 +41,7 @@
 
 .squareParrent{
   transform: rotate(45deg);
+  transition:1s;
   padding: 4px;
   width: 64px;
   height: 64px;
@@ -49,10 +50,64 @@
   margin-left: -117px;
   position: absolute;
 }
+.squareParrent:hover{
+  transform: rotate(0deg);
+}
 .squareChild{
   width: 52px;
   padding: -7px;
   height: 52px;
   background-color: $main-block-blue;
   border: 1px solid $main-block-blue;
+}
+.about-div-2{
+  margin-top: 143px;
+  margin-left: -41px;
+}
+.about-text-2{
+  font-size: 48px;
+  color: #003466;
+  line-height: 48px;
+}
+.about-horizontal-line-3{
+  border-bottom: 5px solid #ceab6f;
+  width: 172px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+
+}
+.about-text-3{
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 26px;
+  color: $main-block-blue;
+}
+.about-div-3{
+  background-color: #0f4c86;
+  margin-left: 50px;
+  height: 490px;
+}
+.about-text-4{
+  color: white;
+  font-size: 40PX;
+  font-family: Merriweather;
+  padding: 52PX;
+}
+.about-button{
+  background-color: #fbefef00;
+  border: 2px solid #fff;
+  color: #bba37c;
+  margin-left: 43px;
+  margin-top: -15px;
+  padding: 22px 34px;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+  transition:1s;
+}
+.about-button:hover{
+  background-color: #ceab6f;
+  border-color: #ceab6f;
+  color: #fff;
+  cursor:pointer;
 }

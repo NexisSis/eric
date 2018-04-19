@@ -1,0 +1,88 @@
+.practice-text-1{
+  font-size: 50px;
+  margin-left: 14px;
+  color: $main-block-blue;
+}
+.practice-text-2{
+  font-weight: 900;
+  color: $main-block-yellow;
+}
+.practice-div-1{
+  margin-top: 50px;
+}
+.practice-div-2{
+  margin-bottom: 50px;
+}
+.practice-arrow{
+  height: 10px;
+  width: 100px;
+  top: 74%;
+  left: 61%;
+  position: absolute;
+  opacity: 0;
+  transition: 1.5s;
+}
+.practice-arrow-2{
+  height: 10px;
+  width: 100px;
+  top: 74%;
+  right: 70%;
+  position: absolute;
+  opacity: 0;
+  transition: 1.5s;
+}
+.practice-img{
+  height: 376px;
+  width: 100%;
+  transition:1s;
+}
+.practice-text-3{
+  margin-top: -100px;
+  margin-right: 57px;
+  font-size: 36px;
+  right: 0;
+  color: #fff;
+  position: absolute;
+  font-family: Merriweather;
+  transition: 1.5s;
+  opacity: 1;
+}
+.practice-text-4{
+  margin-top: -100px;
+  margin-left: 57px;
+  font-size: 36px;
+  left: 0;
+  color: #fff;
+  position: absolute;
+  font-family: Merriweather;
+  transition: 1.5s;
+  opacity: 1;
+}
+.practice-div-3{
+  background-color:$main-block-blue;
+}
+.practice-div-4{
+  background-color:$main-block-blue;
+ }
+.practice-div-3:hover  .practice-arrow{
+  opacity:1;
+}
+
+.practice-div-4:hover .practice-arrow-2{
+  opacity:1;
+}
+.practice-div-3:hover .practice-text-3{
+  margin-right: 101px;
+  margin-top: -160px;
+
+ }
+.practice-div-4:hover .practice-text-4{
+  margin-left: 160px;
+  margin-top: -160px;
+}
+.practice-div-4:hover .practice-img{
+  opacity: 0.5;
+}
+.practice-div-3:hover .practice-img{
+  opacity: 0.5;
+}
