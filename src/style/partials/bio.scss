@@ -1,0 +1,46 @@
+#bio{
+  background-image: url('../img/bio-bg.png');
+}
+.bio-div-1{
+  margin-top: 95px;
+}
+.bio-div-2{
+  padding-right: 84px;
+}
+.bio-text-1{
+  font-size: 48px;
+  color: $main-block-blue;
+}
+.bio-text-2{
+  font-size: 22px;
+  font-weight: 300;
+  color:$main-block-blue;
+  line-height: 15px;
+}
+.bio-horizontal-line{
+  border-bottom: 5px solid #ceab6f;
+  width: 172px;
+  margin-top: 19px;
+  margin-bottom: 47px;
+}
+.bio-button{
+  border: 2px solid #003466;
+  color: #003466;
+  margin-top: 27px;
+  padding: 16px 40px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 1s;
+  text-transform: uppercase;
+  background-color: $transparent-color;
+  margin-bottom: 65px;
+}
+.bio-button:hover{
+  background-color:$main-block-yellow;
+  border-color: $main-block-yellow;
+  color:white;
+}
+.bio-photo{
+  height: 541px;
+  margin-top: 90px;
+}
