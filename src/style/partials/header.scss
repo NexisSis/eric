@@ -1,0 +1,232 @@
+body{
+  font-family: HelveticaNeueCyr;
+}
+.nav-item{
+  margin-right: 40px;
+  color: $nav-font-color;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  text-transform: uppercase;
+  border-top: 2px solid $nav-font-color;
+  transition:1s;
+  border-color:#fff0;
+  margin: 0px 43px;
+}
+
+.nav-item:hover{
+  color: $nav-font-color-hover;
+  border-color:#fff;
+
+
+}
+
+.navbar{
+  background-color: $nav-background-color;
+  padding: 0px;
+  //border-top: 2px solid #ffffff0f;
+  border-top: 2px solid #eaeaea1a;
+}
+.navbar-nav{
+  margin-top: -2px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+   padding-left: 0px;
+   padding-right: 0px;
+
+}
+.logo-block{
+  height: 132px;
+  background-color: $logo-block-background-color;
+}
+.logo-image{
+  margin-top: 6px;
+  margin-left: -78px;
+  width: 389px;
+}
+.logo-block-call-div{
+  margin-top: 24px;
+  margin-left: -38px;
+}
+.logo-block-phone-icon{
+  margin-top: -6px;
+}
+.logo-block-text-1{
+  font-family: Merriweather,serif;
+  color: #fff;
+  font-size: 18px;
+  font-style: italic;
+}
+.logo-block-text-2{
+  color: $nav-font-color-hover;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 12px;
+}
+.logo-block-text-3{
+  color: $logo-block-text-3-color;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-left: 3px;
+  display: block;
+  letter-spacing: 1.35px;
+}
+.logo-block-text-4{
+  color: $logo-block-text-4-color;
+  display: block;
+  margin-top: 18px;
+  margin-left: -67px;
+  font-size: 12px;
+  letter-spacing: 6.8px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-family: Merriweather,serif;
+}
+.logo-block-logo-div{
+  margin-top: 22px;
+  margin-left: 87px;
+}
+.logo-block-button{
+ /* background-color: #fff0;
+  border: solid 1px white;
+  color: $nav-font-color-hover;
+  padding: 10px 39px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  text-transform: uppercase;*/
+  margin-left: 22px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: $nav-font-color-hover;
+  line-height: 18px;
+  display: block;
+}
+.logo-block-button-div{
+  //margin-top: 32px;
+  //margin-left: 24px;
+  margin-top: 17px;
+  margin-left: 19px;
+}
+
+/* button animation */
+.checkBox {
+  width: 222px;
+  height: 66px;
+  margin: 15px auto;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  background-color: #fff0;
+  border: #fff0;
+}
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+svg rect, svg path, svg polyline {
+  fill: none;
+  stroke: white;
+  stroke-width: 1;
+}
+
+.checkBox:hover svg polyline {
+  stroke: white;
+}
+.checkBox svg {
+  margin-left: -10px;
+}
+.checkBox svg rect, .checkBox svg polyline {
+  fill: none;
+  stroke:white;
+  stroke-width: 1.7;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+.checkBox:hover svg rect {
+  stroke-width: 2;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+.checkBox svg .button {
+  stroke-dasharray: 400px, 0;
+}
+.checkBox:hover svg .button {
+  stroke-dasharray: 0, 400px;
+  stroke-dashoffset: 33px;
+}
+/* Check Mark Effect */
+.box, .checkMark {
+  opacity: 0;
+}
+.checkBox:hover .box {
+  -webkit-animation: boxDisplay 0.2s forwards;
+  -moz-animation: boxDisplay 0.2s forwards;
+  -ms-animation: boxDisplay 0.2s forwards;
+  -o-animation: boxDisplay 0.2s forwards;
+  animation: boxDisplay 0.2s forwards;
+  -webkit-animation-delay: 0.65s;
+  -moz-animation-delay: 0.65s;
+  -ms-animation-delay: 0.65s;
+  -o-animation-delay: 0.65s;
+  animation-delay: 0.65s;
+}
+.checkBox:hover .checkMark {
+  -webkit-animation: checkDisplay 0.2s forwards;
+  -moz-animation: checkDisplay 0.2s forwards;
+  -ms-animation: checkDisplay 0.2s forwards;
+  -o-animation: checkDisplay 0.2s forwards;
+  animation: checkDisplay 0.2s forwards;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+/* Check Box Display */
+@-webkit-keyframes boxDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes boxDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-ms-keyframes boxDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes boxDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes boxDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/* Check Mark Display */
+@-webkit-keyframes checkDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes checkDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-ms-keyframes checkDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes checkDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes checkDisplay {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

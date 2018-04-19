@@ -1,0 +1,58 @@
+#about{
+  background-image: url(../img/statue.png);
+  background-repeat: no-repeat;
+  background-position: center 120px;
+}
+.about-div-1{
+  margin-top: 90px;
+  margin-left: 25px;
+}
+.about-text-1{
+  font-size: 49px;
+  color: $main-block-blue;
+  line-height: 48px;
+}
+.about-text-item-1{
+  font-size: 28px;
+  margin-top: 10px;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: $main-block-blue;
+  line-height: 30px;
+}
+.about-text-item-2{
+  margin-top: 15px;
+  font-size: 19px;
+  font-family: Merriweather;
+  line-height: 26px;
+}
+.about-horizontal-line{
+  border-bottom: 5px solid $main-block-yellow;
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 19px;
+}
+.about-horizontal-line-2{
+  border-bottom: 2px solid $main-block-yellow;
+  width: 95px;
+  margin-top: 27px;
+}
+
+.squareParrent{
+  transform: rotate(45deg);
+  padding: 4px;
+  width: 64px;
+  height: 64px;
+  border: 2px solid $main-block-blue;
+  margin-top: 28px;
+  margin-left: -117px;
+  position: absolute;
+}
+.squareChild{
+  width: 52px;
+  padding: -7px;
+  height: 52px;
+  background-color: $main-block-blue;
+  border: 1px solid $main-block-blue;
+}

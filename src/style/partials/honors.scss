@@ -1,0 +1,88 @@
+#honors{
+  background-color: #f3f3f3;
+  height: 300px;
+}
+.honors-text-block{
+  margin-top: 59px;
+}
+.honors-text-1{
+  display:block;
+  font-size: 41px;
+  color:$main-block-blue;
+}
+.honors-text-2{
+  font-weight: 900;
+  color:$main-block-yellow;
+}
+.honors-text-3{
+  display: block;
+  margin-top: 18px;
+  margin-left: 3px;
+  line-height: 20px;
+  width: 95%;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 100;
+}
+.honors-text-4{
+  display:block;
+}
+.honors-horizontal-line{
+  border-left: 1px solid #d5d4d4;
+  height: 144px;
+  margin-top: 74px;
+  margin-left: 408px;
+  position: absolute;
+}
+//carousel
+
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+}
+.jcarousel ul {
+  width: 10000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.jcarousel li {
+  float: left;
+}
+
+.jcarousel-img-1{
+  height: 126px;
+}
+.jcarousel-img-2{
+  height: 138px;
+  margin-left: 21px;
+  margin-top: -9px;
+}
+.jcarousel-img-3{
+  margin-left: 34px;
+  height: 129px;
+}
+.jcarousel-img-4{
+  height: 130px;
+  margin-left: 55px;
+}
+.jcarousel-img-5{
+  height: 138px;
+  margin-left: 21px;
+  margin-top: -9px;
+}
+.jcarousel-img-6{
+  height: 126px;
+}
+
+.jcarousel-wrapper{
+  margin-top: 96px;
+  margin-left: 57px;
+}
+
+.jcarousel-control-next{
+  position: absolute;
+  right: -80px;
+  top: 139px;
+}
