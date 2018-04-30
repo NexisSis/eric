@@ -1,0 +1,413 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .main-img-1{
+        display: none;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main-img-1{
+        display: none;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .checkBox svg {
+        margin-left: -53px;
+    }
+    .logo-block-button {
+        margin-left: -38px;
+        letter-spacing: 1px;
+        font-size: 15px;
+        color: #ceab6f;
+        line-height: 18px;
+        display: block;
+    }
+    .main-img-1 {
+        height: 333px;
+        margin-top: 243px;
+    }
+    .main-block-1 {
+        padding-top: 53px;
+        margin-left: -60px;
+    }
+    .honors-text-1 {
+        display: block;
+        font-size: 28px;
+        color: #003466;
+    }.about-text-4 {
+        color: #fff;
+        font-size: 30PX;
+        font-family: Merriweather;
+        padding: 52PX;
+    }
+    .bio-div-1 {
+        margin-top: -5px;
+        margin-left: -54px;
+    }
+    .bio-text-2 {
+        font-size: 17px;
+        font-weight: 300;
+        color: #003466;
+        line-height: 15px;
+    }
+    .bio-photo {
+        height: 333px;
+        margin-top: 298px;
+    }
+    .offer-text-1 {
+        text-align: center;
+        font-size: 39px;
+        padding: 0 100px;
+        color: #fff;
+        line-height: 50px;
+        font-family: Merriweather;
+    }
+    .container {
+        max-width: 800px;
+    }
+    .testimonials-div-2 {
+        height: 435px;
+        width: 333px;
+        position: absolute;
+        border: 2px solid #0f4c85;
+        margin-left: -20px;
+        margin-top: 53px;
+    }
+    .testimonials-div-3 {
+        background-color: #fff;
+        margin-top: 74px;
+        height: 476px;
+        padding: 42px 53px;
+        font-size: 11px;
+        line-height: 22px;
+        color: #003466;
+        position: relative;
+    }
+    .testimonials-div-4 {
+        width: 285px;
+        background-color: #0f4c85;
+        margin-left: 43px;
+        height: 97px;
+        margin-top: -45px;
+        position: relative;
+        padding: 32px 135px;
+        font-size: 26px;
+        color: #fff;
+    }
+    .testimonials-div-5 {
+        background-color: #fff;
+        margin-top: 74px;
+        height: 474px;
+        padding: 42px 53px;
+        font-size: 11px;
+        line-height: 22px;
+        color: #003466;
+        position: relative;
+    }
+    .contact-book {
+        display: none;
+    }
+    .contact-pens {
+        display: none;
+    }
+    .contact-div-1 {
+        margin-top: 19px;
+        margin-left: -73px;
+        font-size: 33px;
+        color: #fff;
+        font-weight: 700;
+        line-height: 41px;
+        z-index: 1;
+    }
+    .contact-b-card-1 {
+        margin-left: -84px;
+        margin-top: -250px;
+        z-index: 1;
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    .contact-b-card-2 {
+        margin-left: -75px;
+        margin-top: -190px;
+        z-index: 0;
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg);
+    }
+    .footer-logo {
+        width: 339px;
+        margin-top: 36px;
+        margin-left: -98px;
+    }
+    .footer-minus-margin-left {
+        margin-left: -9px;
+    }
+    
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-block-1{
+        padding-top: 55px;
+    }
+    .main-block-text-1{
+        font-size: 37px;
+    }
+    .main-block-text-3{
+        font-size: 45px;
+    }
+    .main-block-text-5{
+        font-size: 28px;
+    }
+    .main{
+        height: 391px;
+    }
+    .main-img-1{
+        margin-top: 96px;
+        height: 291px;
+    }
+    .logo-block-text-1{
+        font-size:15px;
+    }
+    .logo-block-text-2{
+        font-size: 19px;
+    }   
+    .logo-block-text-3{
+        font-size:13px;
+    }
+    .logo-image{
+        width: 325px;
+    }
+    .logo-block-text-4{
+        font-size: 10px;
+    }
+    .logo-block-button-div{
+        margin-left: -24px;
+    }
+    .checkBox svg {
+        margin-left: -60px;
+    }
+    .logo-block-button{
+        margin-left: -81px;
+    }
+    .honors-text-1{
+        font-size: 35px;
+    }
+    .honors-text-3 {
+        margin-top: 15px;
+    }
+    .honors-horizontal-line{
+        margin-left:355px;
+    }
+    .jcarousel-control-next{
+        right: 20px;
+        top: 249px;
+    }
+    .squareParrent {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        transition: 1s;
+        padding: 4px;
+        width: 64px;
+        height: 64px;
+        border: 2px solid #003466;
+        margin-top: 28px;
+        margin-left: -95px;
+        position: absolute;
+    }
+    .logo-block-button {
+        margin-left: -73px;
+        letter-spacing: 1px;
+        font-size: 15px;
+        color: #ceab6f;
+        line-height: 18px;
+        display: block;
+    }
+    .practice-img{
+        height: 285px;
+    }
+    .practice-div-4:hover .practice-text-4{
+        margin-left: 50px;
+    }
+    .about-div-2{
+      margin-left:0px;
+    }
+    .about-text-4{
+        font-size: 33PX;
+    }
+    .about-button{
+        font-size: 15px;
+    }
+    .about-div-3{
+        height: 422px;
+    }
+    .bio-photo {
+        height: 318px;
+        margin-top: 315px;
+    }
+    .bio-text-1{
+        font-size: 43px;
+    }
+    .bio-text-2 {
+        font-size: 19px;
+        font-weight: 300;
+        color: #003466;
+        line-height: 15px;
+    }
+    .bio-button {
+        margin-top: 30px;
+    }
+    .testimonials-div-1{
+        font-size: 42px;
+    }
+    .testimonials-margin-left{
+        margin-left: 0px;
+    }
+    .testimonials-margin-right{
+        margin-left:0px;
+    }
+    .testimonials-div-3 {
+        background-color: #fff;
+        margin-top: 74px;
+        height: 476px;
+        padding: 42px 53px;
+        font-size: 14px;
+        line-height: 22px;
+        color: #003466;
+        position: relative;
+    }
+    .testimonials-div-4 {
+        width: 361px;
+        background-color: #0f4c85;
+        margin-left: 59px;
+        height: 98px;
+        margin-top: -51px;
+        position: relative;
+        padding: 33px 135px;
+        font-size: 24px;
+        color: #fff;
+    }
+    .testimonials-div-5 {
+        background-color: #fff;
+        margin-top: 74px;
+        height: 328px;
+        padding: 42px 53px;
+        font-size: 15px;
+        line-height: 22px;
+        color: #003466;
+        position: relative;
+    }
+    .contact-book {
+        margin-left: 125px;
+    }
+    .contact-pens {
+       display: none;
+    }
+    .contact-div-1 {
+        margin-left: 0px;
+    }
+    .contact-b-card-1 {
+        margin-left: -12px;
+        margin-top: -250px;
+        z-index: 1;
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    .contact-b-card-2 {
+        margin-left: -8px;
+        margin-top: -190px;
+        z-index: 0;
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg);
+    }
+    .footer-text-2{
+        font-size: 10px;
+    }
+    .footer-2-div-1{
+        margin-left: 0px;
+    }
+    .footer-logo {
+        width: 339px;
+        margin-top: 36px;
+        margin-left: -116px;
+    }
+    .footer-minus-margin-left {
+        margin-left: -6px;
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1620px){ 
+    .main{
+        height: 462px;
+    }
+    .main-img-1 {
+        height: 345px;
+        margin-top: 117px;
+    }
+    .main-block-button-1{
+        font-size: 16px;
+    }
+    .main-block-text-5{
+        font-size: 28px;
+    }
+    .main-block-text-1, .main-block-text-2{
+        font-size: 33px;
+    }
+    .main-block-text-3{
+        font-size: 48px;
+    }
+    .bio-photo {
+        height: 388px;
+        margin-top: 243px;
+    }
+    .contact-pens {
+        display: none;
+    }
+    .jcarousel-control-next {
+        display: none;
+    }
+    .contact-book {
+        margin-left: 255px;
+    }
+    .contact-div-1 {
+        margin-top: 73px;
+        margin-left: -21px;
+        font-size: 33px;
+        color: #fff;
+        font-weight: 700;
+        line-height: 41px;
+        z-index: 1;
+    }
+    .contact-b-card-1 {
+        margin-left: -29px;
+        margin-top: -250px;
+        z-index: 1;
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    .contact-b-card-2 {
+        margin-left: -19px;
+        margin-top: -190px;
+        z-index: 0;
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg);
+    }
+    .footer-minus-margin-left {
+        margin-left: -6px;
+    }
+    .footer-minus-margin-left {
+        margin-left: -17px;
+    }
+    .footer-logo{
+        margin-left:0px;
+    }
+    .footer-minus-margin-left{
+        margin-left: -24px;
+    }
+    .logo-block-button-div{
+        margin-left: -7px;
+    }
+}
