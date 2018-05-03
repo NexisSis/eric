@@ -1,19 +1,28 @@
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-    .main-img-1{
-        display: none;
-    }
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .main-img-1{
-        display: none;
-    }
-}
-
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
+    .footer-text-align{
+        text-align:center;
+    }
+    .nav-item{
+        margin: 0 30px;
+    }
+    .main{
+        background-position-y: -200px;
+    }
+    .jcarousel-control-next {
+        position: absolute;
+        right: 50px;
+        top: 240px;
+    }
+    .honors-horizontal-line{
+        margin-left: 298px;
+    }
+    .logo-block-logo-div{
+        margin-left: 0px;
+    }
+    .logo-block-call-div{
+        margin-left: 0px;
+    }
     .checkBox svg {
         margin-left: -53px;
     }
@@ -25,27 +34,45 @@
         line-height: 18px;
         display: block;
     }
+    .logo-block-text-4{
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    .main-block-text-5{
+        font-size: 24px;
+    }
+    .main-block-button-1{
+        margin-left: -5px;
+        padding: 18px 54px;
+        font-size: 15px;
+    }
+    .main-block-text-3{
+        font-size: 23px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .main-block-text-1, .main-block-text-2{
+        font-size: 22px;
+    }
+
+    .main{
+        height: 344px;
+    }
+    .logo-image{
+       margin-left: 0px;
+    }
     .main-img-1 {
         height: 333px;
-        margin-top: 243px;
+        margin-top: 10px;
     }
     .main-block-1 {
         padding-top: 53px;
-        margin-left: -60px;
+        margin-left: 0px;
     }
     .honors-text-1 {
         display: block;
         font-size: 28px;
         color: #003466;
-    }.about-text-4 {
-        color: #fff;
-        font-size: 30PX;
-        font-family: Merriweather;
-        padding: 52PX;
-    }
-    .bio-div-1 {
-        margin-top: -5px;
-        margin-left: -54px;
     }
     .bio-text-2 {
         font-size: 17px;
@@ -54,37 +81,27 @@
         line-height: 15px;
     }
     .bio-photo {
-        height: 333px;
-        margin-top: 298px;
+        display:none;
+    }
+    .bio-button{
+        font-size: 20px;
     }
     .offer-text-1 {
-        text-align: center;
-        font-size: 39px;
-        padding: 0 100px;
-        color: #fff;
-        line-height: 50px;
-        font-family: Merriweather;
+        font-size: 32px;
     }
-    .container {
-        max-width: 800px;
+    .bio-text-2{
+        font-size: 21px;
+    }
+    .offer-div{
+        padding-top: 22px;
     }
     .testimonials-div-2 {
-        height: 435px;
-        width: 333px;
-        position: absolute;
-        border: 2px solid #0f4c85;
-        margin-left: -20px;
-        margin-top: 53px;
+        height: 433px;
+        width: 613px;
     }
     .testimonials-div-3 {
-        background-color: #fff;
-        margin-top: 74px;
-        height: 476px;
-        padding: 42px 53px;
-        font-size: 11px;
-        line-height: 22px;
-        color: #003466;
-        position: relative;
+        font-size: 18px;
+        line-height: 26px;
     }
     .testimonials-div-4 {
         width: 285px;
@@ -98,57 +115,106 @@
         color: #fff;
     }
     .testimonials-div-5 {
-        background-color: #fff;
-        margin-top: 74px;
-        height: 474px;
-        padding: 42px 53px;
-        font-size: 11px;
-        line-height: 22px;
-        color: #003466;
-        position: relative;
+        font-size: 18px;
+        line-height: 31px;
+        height: 387px;
+    }
+    .testimonials-margin-left{
+        margin-left:0px;
+    }
+    .testimonials-margin-right{
+        margin-left:0px;
     }
     .contact-book {
         display: none;
     }
     .contact-pens {
-        display: none;
+        right: 18px;
+        margin-top: -300px;
+        display: inherit;
     }
     .contact-div-1 {
-        margin-top: 19px;
-        margin-left: -73px;
-        font-size: 33px;
-        color: #fff;
-        font-weight: 700;
-        line-height: 41px;
-        z-index: 1;
+        text-align:center;
+        margin-left:0px;
     }
-    .contact-b-card-1 {
-        margin-left: -84px;
-        margin-top: -250px;
-        z-index: 1;
-        -webkit-transform: rotate(-5deg);
-        transform: rotate(-5deg);
+    .contact-b-card-1{
+        display:none;
     }
-    .contact-b-card-2 {
-        margin-left: -75px;
-        margin-top: -190px;
-        z-index: 0;
-        -webkit-transform: rotate(-18deg);
-        transform: rotate(-18deg);
+    .contact-b-card-2{
+        display:none;
     }
     .footer-logo {
         width: 339px;
         margin-top: 36px;
-        margin-left: -98px;
+        margin-left:0px;
     }
     .footer-minus-margin-left {
-        margin-left: -9px;
+        margin-left: 0px;
     }
-    
+    .about-horizontal-line-3{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-div-3{
+        margin-left: 0px;
+    }
+    .about-text-3{
+        font-size: 25px;
+    }
+    .about-text-4{
+        font-size: 50PX;
+    }
+    .about-div-3{
+        margin-top: 50px;
+    }
+    .about-button{
+        font-size: 23px;
+    }
+    .practice-text-3, .practice-text-4{
+        margin-left: 57px;
+        left: 0;
+    }
+    .practice-arrow, .practice-arrow-2{
+        margin-left: 57px;
+        left: 0;
+    }
+    .practice-div-4:hover .practice-text-4{
+        margin-left: 57px;
+        margin-top: -160px;
+    }
+    #contact{
+        height: 765px;
+    }
+    .contact-book{
+        margin-left: -310px;
+        margin-top: 208px;
+        display: initial;
+    }
+    .footer-2-logo{
+        display:none;
+    }
+    .footer-text-2{
+        font-size: 11px;
+    }
+    #footer{
+        height: 265px;
+    }
  }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .footer-text-align{
+        text-align:center;
+    }
+    .logo-block-call-div{
+       margin-left: 0px;
+    }
+    .logo-block-logo-div{
+        margin-left: 0px;
+    }
+    .logo-block-button-div{
+        margin-left:0px;
+    }
     .main-block-1{
         padding-top: 55px;
     }
@@ -182,9 +248,6 @@
     }
     .logo-block-text-4{
         font-size: 10px;
-    }
-    .logo-block-button-div{
-        margin-left: -24px;
     }
     .checkBox svg {
         margin-left: -60px;
@@ -260,7 +323,7 @@
         margin-top: 30px;
     }
     .testimonials-div-1{
-        font-size: 42px;
+        font-size: 40px;
     }
     .testimonials-margin-left{
         margin-left: 0px;
@@ -336,10 +399,11 @@
     .footer-minus-margin-left {
         margin-left: -6px;
     }
+
  }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) and (max-width: 1620px){ 
+@media (min-width: 1200px) and (max-width: 1620px){
     .main{
         height: 462px;
     }
@@ -409,5 +473,109 @@
     }
     .logo-block-button-div{
         margin-left: -7px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .logo-block-call-div{
+        margin-bottom:24px;
+    }
+    .navbar-toggler-icon{
+        width: 2em;
+        height: 2em;
+    }
+    .navbar-toggler{
+        margin-right: 15px;
+    }
+    .testimonials-div-2{
+        width: 555px;
+    }
+    .main-img-1{
+        height: 333px;
+        position: absolute;
+        margin-left: 300px;
+        display: inherit;
+    }
+    .main{
+        overflow: hidden;
+        position: relative;
+    }
+    .honors-horizontal-line{
+        display: none;
+    }
+    .jcarousel-control-next{
+        right: -55px;
+        top: 58px;
+    }
+    .jcarousel-wrapper{
+        margin-top: 15px;
+        margin-left: -10px;
+    }
+    .jcarousel-img-1{
+        height: 80px;
+    }
+    .jcarousel-img-2 {
+        height: 80px;
+        margin-top: 5px;
+    }
+    .jcarousel-img-3 {
+        margin-left: 34px;
+        height: 80px;
+        margin-top: 5px;
+    }
+    .jcarousel-img-4{
+        height: 80px;
+        margin-left: 36px;
+        margin-top: 9px;
+    }
+    .jcarousel-img-5{
+        height: 80px;
+        margin-left: 36px;
+        margin-top: 9px;
+    }
+    .jcarousel-img-6{
+        height: 80px;
+        margin-left: 35px;
+    }
+    .about-div-3{
+        height: 630px;
+    }
+    .about-button {
+        font-size: 21px;
+    }
+    .practice-img{
+        height: 300px;
+    }
+    #bio{
+        background-size: 440%;
+    }
+    .bio-button{
+        font-size:19px;
+    }
+    .offer-text-1{
+        padding: 0 50px;
+    }
+    .testimonials-div-3{
+        height: 595px;
+    }
+    .testimonials-div-5{
+        height: 450px;
+    }
+    .contact-text-1{
+        font-size:27px;
+    }
+    .contact-pens{
+        display: none;
+    }
+    .contact-book{
+        margin-left: -394px;
+    }
+    #footer{
+        height: 450px;
+    }
+    .honors-text-block {
+        margin-top: 25px;
+    }
+    #honors{
+        height:275px;
     }
 }
