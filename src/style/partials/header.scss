@@ -1,51 +1,66 @@
-body{
-  font-family: HelveticaNeueCyr;
+
+#header{
+  background-color: #eff3f6;
 }
 .nav-item{
   margin-right: 40px;
   color: $nav-font-color;
-  padding-top: 26px;
-  padding-bottom: 26px;
+  //padding-top: 26px;
+  //padding-bottom: 26px;
+  padding-top:10px;
+  padding-bottom: 10px;
   text-transform: uppercase;
   border-top: 2px solid $nav-font-color;
   transition:1s;
   border-color:#fff0;
-  margin: 0px 43px;
+  margin: 0px 63px;
 }
 
 .nav-item:hover{
   color: $nav-font-color-hover;
   border-color:#fff;
-
-
 }
 
 .navbar{
+  transition:1s;
   background-color: $nav-background-color;
   padding: 0px;
   //border-top: 2px solid #ffffff0f;
   border-top: 2px solid #eaeaea1a;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  Z-INDEX: 2;
+  padding-bottom:15px;
+  padding-top: 15px;
+}
+.main-animation{
+  transition:1s;
+  margin-top:60px;
+}
 .navbar-nav{
   margin-top: -2px;
-}
-.navbar-expand-lg .navbar-nav .nav-link{
-   padding-left: 0px;
-   padding-right: 0px;
 
 }
+.navbar-expand-md .navbar-nav .nav-link{
+  padding-right: 0px;
+  padding-left: 0px;
+}
 .logo-block{
-  height: 132px;
+  height: 108px;
   background-color: $logo-block-background-color;
 }
 .logo-image{
   margin-top: 6px;
-  margin-left: -78px;
+  //margin-left: -78px;
   width: 389px;
 }
 .logo-block-call-div{
-  margin-top: 24px;
-  margin-left: -38px;
+  //margin-top: 24px;
+  //margin-left: -38px;
+  margin-top:10px;
 }
 .logo-block-phone-icon{
   margin-top: -6px;
@@ -56,11 +71,38 @@ body{
   font-size: 18px;
   font-style: italic;
 }
+.logo-block-text-1-animation{
+  animation: translateInTop 2s;
+  transition:1s;
+  z-index: 3;
+  position:fixed;
+  top: 8px;
+}
 .logo-block-text-2{
   color: $nav-font-color-hover;
   font-size: 22px;
   font-weight: bold;
   margin-left: 12px;
+}
+.logo-block-text-2-animation{
+  animation: translateInTop 2s;
+  z-index: 3;
+  position:fixed;
+  top: 34px;
+  left: 45px;
+}
+.logo-img-animation{
+  animation: translateInTop 2s;
+  z-index: 3;
+  position:fixed;
+  top: 48px;
+}
+.logo-button-animation{
+  animation: translateInTop 2s;
+  position: fixed!important;
+  right: 60px;
+  top: -10px;
+  z-index: 3;
 }
 .logo-block-text-3{
   color: $logo-block-text-3-color;
@@ -75,7 +117,7 @@ body{
   color: $logo-block-text-4-color;
   display: block;
   margin-top: 18px;
-  margin-left: -67px;
+  //margin-left: -67px;
   font-size: 12px;
   letter-spacing: 6.8px;
   font-style: normal;
@@ -83,8 +125,9 @@ body{
   font-family: Merriweather,serif;
 }
 .logo-block-logo-div{
-  margin-top: 22px;
-  margin-left: 87px;
+  //margin-top: 22px;
+  //margin-left: 87px;
+  margin-top:10px;
 }
 .logo-block-button{
  /* background-color: #fff0;
@@ -104,8 +147,9 @@ body{
 .logo-block-button-div{
   //margin-top: 32px;
   //margin-left: 24px;
-  margin-top: 17px;
-  margin-left: 19px;
+  //margin-top: 17px;
+  margin-left:-25px;
+  //margin-left: 19px;
 }
 
 /* button animation */
@@ -229,4 +273,8 @@ svg rect, svg path, svg polyline {
 @keyframes checkDisplay {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+@keyframes translateInTop {
+  from { transform: translateY(-100px); }
+  to   { transform: translateY(0px); }
 }

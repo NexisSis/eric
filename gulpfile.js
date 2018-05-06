@@ -83,7 +83,7 @@ gulp.task('image:build', function () {
         //     interlaced: true
         // }))
         .pipe(gulp.dest(path.build.img))
-        .pipe(reload({stream: true}));
+        //.pipe(reload({stream: true}));
 });
 gulp.task('fonts:build', function() {
     gulp.src(path.src.fonts)
