@@ -1,109 +1,176 @@
-#about{
-  background-image: url(../img/statue.png);
-  background-repeat: no-repeat;
-  background-position: center 120px;
-  background-color: white;
-}
+//#about{
+//  background-image: url(../img/statue.png);
+//  background-repeat: no-repeat;
+//  background-position: center 120px;
+//  background-color: white;
+//}
+//.about-div-1{
+//  margin-top: 90px;
+//  margin-left: 25px;
+//}
+//.about-text-1{
+//  font-size: 49px;
+//  color: $main-block-blue;
+//  line-height: 48px;
+//}
+//.about-text-item-1{
+//  font-size: 28px;
+//  margin-top: 10px;
+//  letter-spacing: 0;
+//  font-weight: 700;
+//  color: $main-block-blue;
+//  line-height: 30px;
+//}
+//.about-text-item-2{
+//  margin-top: 15px;
+//  font-size: 19px;
+//  font-family: Merriweather;
+//  line-height: 26px;
+//}
+//.about-horizontal-line{
+//  border-bottom: 5px solid $main-block-yellow;
+//  width: 160px;
+//  margin-left: auto;
+//  margin-right: auto;
+//  margin-top: 19px;
+//}
+//.about-horizontal-line-2{
+//  border-bottom: 2px solid $main-block-yellow;
+//  width: 95px;
+//  margin-top: 27px;
+//}
+//
+//.squareParrent{
+//  transform: rotate(45deg);
+//  transition:1s;
+//  padding: 4px;
+//  width: 64px;
+//  height: 64px;
+//  border: 2px solid $main-block-blue;
+//  margin-top: 28px;
+//  margin-left: -117px;
+//  position: absolute;
+//}
+//.about-hover:hover .squareParrent{
+//  transform: rotate(0deg);
+//}
+//.squareChild{
+//  width: 52px;
+//  padding: -7px;
+//  height: 52px;
+//  background-color: $main-block-blue;
+//  border: 1px solid $main-block-blue;
+//}
+//.about-div-2{
+//  margin-top: 143px;
+//  margin-left: -41px;
+//}
+//.about-text-2{
+//  font-size: 48px;
+//  color: #003466;
+//  line-height: 48px;
+//}
+//.about-horizontal-line-3{
+//  border-bottom: 5px solid #ceab6f;
+//  width: 172px;
+//  margin-top: 25px;
+//  margin-bottom: 45px;
+//
+//}
+//.about-text-3{
+//  font-size: 21px;
+//  font-weight: 300;
+//  line-height: 26px;
+//  color: $main-block-blue;
+//}
+//.about-div-3{
+//  background-color: #0f4c86;
+//  margin-left: 50px;
+//  height: 490px;
+//}
+//.about-text-4{
+//  color: white;
+//  font-size: 40PX;
+//  font-family: Merriweather;
+//  padding: 52PX;
+//}
+//.about-button{
+//  background-color: #fbefef00;
+//  border: 2px solid #fff;
+//  color: #bba37c;
+//  margin-left: 43px;
+//  margin-top: -15px;
+//  padding: 22px 34px;
+//  text-transform: uppercase;
+//  font-size: 17px;
+//  font-weight: 500;
+//  transition:1s;
+//}
+//.about-button:hover{
+//  background-color: #ceab6f;
+//  border-color: #ceab6f;
+//  color: #fff;
+//  cursor:pointer;
+//}
+
 .about-div-1{
-  margin-top: 90px;
-  margin-left: 25px;
+  padding: 38px;
 }
 .about-text-1{
-  font-size: 49px;
-  color: $main-block-blue;
-  line-height: 48px;
-}
-.about-text-item-1{
-  font-size: 28px;
-  margin-top: 10px;
-  letter-spacing: 0;
-  font-weight: 700;
-  color: $main-block-blue;
-  line-height: 30px;
-}
-.about-text-item-2{
-  margin-top: 15px;
-  font-size: 19px;
-  font-family: Merriweather;
-  line-height: 26px;
-}
-.about-horizontal-line{
-  border-bottom: 5px solid $main-block-yellow;
-  width: 160px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 19px;
-}
-.about-horizontal-line-2{
-  border-bottom: 2px solid $main-block-yellow;
-  width: 95px;
-  margin-top: 27px;
-}
-
-.squareParrent{
-  transform: rotate(45deg);
-  transition:1s;
-  padding: 4px;
-  width: 64px;
-  height: 64px;
-  border: 2px solid $main-block-blue;
-  margin-top: 28px;
-  margin-left: -117px;
-  position: absolute;
-}
-.about-hover:hover .squareParrent{
-  transform: rotate(0deg);
-}
-.squareChild{
-  width: 52px;
-  padding: -7px;
-  height: 52px;
-  background-color: $main-block-blue;
-  border: 1px solid $main-block-blue;
-}
-.about-div-2{
-  margin-top: 143px;
-  margin-left: -41px;
-}
-.about-text-2{
+  color:$main-block-blue;
   font-size: 48px;
-  color: #003466;
-  line-height: 48px;
+  margin-top: 33px;
+  display: block;
+  line-height: 50px;
 }
-.about-horizontal-line-3{
+.about-horizontal-line-1{
   border-bottom: 5px solid #ceab6f;
   width: 172px;
-  margin-top: 25px;
-  margin-bottom: 45px;
-
+  margin-top: 19px;
+  margin-bottom: 52px;
+}
+.about-text-2{
+  font-size: 21px;
+  display: block;
+  line-height: 25px;
+  letter-spacing: 0.55px;
+  color:#003a71;
 }
 .about-text-3{
-  font-size: 21px;
-  font-weight: 300;
-  line-height: 26px;
-  color: $main-block-blue;
+  margin-top: 27px;
+  display: block;
 }
-.about-div-3{
-  background-color: #0f4c86;
-  margin-left: 50px;
-  height: 490px;
+.about-div-2{
+  margin-left: -15px;
+  margin-right: -15px;
+  background-image: url(../img/about-bg.png);
+  background-position-x: 69px;
+  margin-top: 48px;
+  padding-bottom: 90px;
 }
 .about-text-4{
-  color: white;
-  font-size: 40PX;
   font-family: Merriweather;
-  padding: 52PX;
+  color: white;
+  font-size: 40.5px;
+  display: block;
+  padding-top: 72px;
+  padding-left: 51px;
+  padding-right: 107px;
+  line-height: 48px;
+}
+.about-div-3{
+  margin-top: 55px;
 }
 .about-button{
-  background-color: #fbefef00;
-  border: 2px solid #fff;
+  background-color: $transparent-color;
+  border: 2px solid white;
   color: #bba37c;
-  margin-left: 43px;
+  margin-left: 52px;
   margin-top: -15px;
-  padding: 22px 34px;
-  text-transform: uppercase;
+  padding: 19px 36px;
   font-size: 17px;
   font-weight: 500;
+  text-transform: uppercase;
   transition:1s;
 }
 .about-button:hover{
@@ -111,4 +178,45 @@
   border-color: #ceab6f;
   color: #fff;
   cursor:pointer;
+}
+.about-div-4{
+  background-color: #0f4c86;
+  padding-left: 65px;
+  padding-right: 33px;
+  padding-top: 65px;
+  margin-bottom: 125px;
+}
+.about-text-5{
+  color: white;
+  font-size: 49px;
+}
+.about-img-1{
+  margin-top: 24px;
+  position: absolute;
+}
+.about-text-item-1{
+  color: white;
+  font-size: 28px;
+}
+.about-text-item-2{
+  color: white;
+  display: block;
+  margin-top: 10px;
+  font-size: 19px;
+  font-family: Merriweather;
+}
+.about-div-5{
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.about-item-container{
+  padding-left: 100px;
+  padding-top: 15px;
+}
+.about-horizontal-line-2{
+  border-bottom: 1px solid #3f709e;
+  position: relative;
+  top: 24px;
+  left: -83px;
+  margin-left: -12px;
 }

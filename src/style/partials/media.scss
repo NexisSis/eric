@@ -3,6 +3,10 @@
     .footer-text-align{
         text-align:center;
     }
+    .sticky{
+        padding-top:0px;
+        padding-bottom:0px;
+    }
     .nav-item{
         margin: 0 30px;
     }
@@ -19,6 +23,7 @@
     }
     .logo-block-logo-div{
         margin-left: 0px;
+        text-align: left!important;
     }
     .logo-block-call-div{
         margin-left: 0px;
@@ -102,6 +107,7 @@
     .testimonials-div-3 {
         font-size: 18px;
         line-height: 26px;
+        height: unset;
     }
     .testimonials-div-4 {
         width: 285px;
@@ -199,10 +205,23 @@
     #footer{
         height: 265px;
     }
+    .practice-description-1,.practice-description-2,.practice-description-3{
+        text-align: left;
+        margin-top: -196px;
+        margin-left: 5.5vw;
+        width: 50vw;
+    }
+    .practice-div-3:hover .practice-text-3, .practice-div-4:hover .practice-text-4{
+        margin-right: 60px;
+        margin-top: -250px;
+    }
  }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .nav-item{
+        margin: 0 35px;
+    }
     .footer-text-align{
         text-align:center;
     }
@@ -334,12 +353,12 @@
     .testimonials-div-3 {
         background-color: #fff;
         margin-top: 74px;
-        height: 476px;
         padding: 42px 53px;
         font-size: 14px;
         line-height: 22px;
         color: #003466;
         position: relative;
+        height: unset;
     }
     .testimonials-div-4 {
         width: 361px;
@@ -351,6 +370,16 @@
         padding: 33px 135px;
         font-size: 24px;
         color: #fff;
+    }
+    .practice-description-1{
+        margin-left: 7.5vw;
+        width: 36.5vw;
+    }
+    .practice-arrow{
+        right: 6.5vw;
+    }
+    .practice-description-2{
+        width: 45vw;
     }
     .testimonials-div-5 {
         background-color: #fff;
@@ -404,6 +433,12 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1620px){
+    .jcarousel-control-next{
+        left:88%;
+    }
+    .nav-item{
+        margin: 0px 50px;
+    }
     .main{
         height: 462px;
     }
@@ -423,14 +458,18 @@
     .main-block-text-3{
         font-size: 48px;
     }
+    .practice-description-1{
+        margin-left: 6.5vw;
+        width: 39vw;
+    }
+    .practice-description-2{
+        width: 43vw;
+    }
     .bio-photo {
         height: 388px;
         margin-top: 243px;
     }
     .contact-pens {
-        display: none;
-    }
-    .jcarousel-control-next {
         display: none;
     }
     .contact-book {
@@ -557,12 +596,6 @@
     .offer-text-1{
         padding: 0 50px;
     }
-    .testimonials-div-3{
-        height: 595px;
-    }
-    .testimonials-div-5{
-        height: 450px;
-    }
     .contact-text-1{
         font-size:27px;
     }
@@ -581,8 +614,31 @@
     #honors{
         height:275px;
     }
+    .practice-description-1,.practice-description-2,.practice-description-3{
+        text-align: left;
+        margin-top: -190px;
+        margin-left: 7.5vw;
+        width: 80vw;
+    }
 }
 @media(max-width: 576px){
+    .practice-div-3:hover .practice-text-3, .practice-div-4:hover .practice-text-4{
+        margin-right: 60px;
+        margin-top: -69px;
+    }
+    .practice-description-1{
+        display: none;
+    }
+    .practice-description-2{
+        display: none;
+    }
+    .practice-description-3{
+        display: none;
+    }
+    .sticky{
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
     .nopadding{
         padding-right: 15px!important;
         padding-left: 15px!important;
@@ -595,7 +651,7 @@
         text-align: center!important;
     }
     .logo-block{
-        height: 111px;
+        height: 90px;
     }
     .logo-block-call-div{
         margin-top:10px;
@@ -660,7 +716,7 @@
         display: none;
     }
     #honors{
-        height: 265px;
+        height: 305px;
     }
     .honors-arrow{
         width: 28px;
@@ -673,8 +729,9 @@
         text-align: center;
     }
     .jcarousel-control-next{
-        right: -23px;
-        top: 31px;
+        right: -20px;
+        top: 67px;
+        left: unset;
     }
     .jcarousel-img-1{
         height: 50px;
@@ -780,14 +837,6 @@
         margin-top: -65px;
         font-size: 18px;
     }
-    .practice-div-3:hover .practice-text-3{
-        margin-right: 101px;
-        margin-top: -90px;
-    }
-    .practice-div-4:hover .practice-text-4{
-        margin-right: 101px;
-        margin-top: -90px;
-    }
     .practice-img{
         height: 185px;
     }
@@ -833,9 +882,7 @@
         padding: 31px 27px;
         font-size: 13px;
         margin-top: 30px;
-    }
-    .testimonials-div-3{
-        height: 645px;
+        height: unset;
     }
     .testimonials-div-4{
         margin-top: -15px;
@@ -844,14 +891,14 @@
         padding: 31px 27px;
         font-size: 13px;
         margin-top: 30px;
-        height: 460px;
+        height: unset;
     }
     .contact-from{
         margin-top: 50px;
     }
     .contact-book{
         margin-left: -482px;
-        margin-top: 318px;
+        margin-top: 303px;
     }
     #contact{
         height: 875px;
@@ -863,4 +910,29 @@
     .footer-text-align{
         margin-top: 25px;
     }
+}
+@media(max-width:1620px){
+    .logo-button-animation{
+        display: none;
+    }
+    .logo-img-animation{
+        display: none;
+    }
+    .logo-block-text-1-animation{
+        display: none;
+    }
+    .logo-block-text-2-animation{
+        display: none;
+    }
+}
+@media(min-width: 1620px){
+    .jcarousel-wrapper{
+       // width: 80%;
+    }
+    .jcarousel-control-next{
+        display: none;
+    }
+}
+@media(max-width: 576px){
+
 }

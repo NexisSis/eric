@@ -7,24 +7,28 @@
 }
 .main-block-text-1{
   display: block;
-  font-size: 44px;
+  font-size: 48px;
+  font-weight: bold;
   text-transform: uppercase;
   color: $main-block-blue;
+
+
 }
 .main-block-text-2{
   display: block;
-  font-size: 44px;
+  font-size: 48px;
+  font-weight: bold;
   color: $main-block-blue;
   text-transform: uppercase;
-  margin-top: -12px;
+  margin-top: -5px;
 
 }
 .main-block-text-3{
   color: $main-block-yellow;
   text-transform: uppercase;
   display: block;
-  font-size: 61px;
-  margin-top: -2px;
+  font-size: 54px;
+  margin-top: -15px;
   margin-left: -4px;
   font-weight: 900;
 }
@@ -33,23 +37,35 @@
 }
 .main-block-text-5{
   font-family: Merriweather,serif;
-  color: $main-block-blue;
+  color: white;
   font-style: italic;
-  font-weight: bold;
-  font-size: 33px;
-  margin-left: -1px;
-  margin-top: -3px;
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 4px;
+  margin-top: 0px;
   display: block;
+  background-color: $main-block-blue;
+  padding-left: 18px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 280px;
 }
+.main-block-text-6{
+  font-size: 48px;
+  background-color: #003466;
+  padding: 4px 17px;
+  color: white;
+}
+
 .main-block-button-1{
-  background-color: $transparent-color;
-  border: 3px solid $main-block-blue;
+  background-color: #fbefefc2;
+  border: 2px solid #003466;
   color: $main-block-blue;
   margin-top: 27px;
   margin-left: 4px;
-  padding: 18px 79px;
+  padding: 18px 76px;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: bold;
   cursor: pointer;
   transition:1s;

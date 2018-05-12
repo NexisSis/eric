@@ -31,7 +31,7 @@ $(function() {
 
 
 new WOW().init();
-
+//header animation
 window.onscroll = function() {scrollFix()};
 var header = document.getElementById("menuNav");
 var main = document.getElementById("main");
@@ -59,3 +59,13 @@ function scrollFix() {
 
     }
 }
+
+
+// smooth animation
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 900);
+});
