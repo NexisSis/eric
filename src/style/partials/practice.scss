@@ -14,19 +14,17 @@
   margin-bottom: 50px;
 }
 .practice-arrow{
-  height: 10px;
-  width: 100px;
-  right:3.5vw;
-  top: 83%;
+  color:white;
+  left: 20vw;
+  top: 43%;
   position: absolute;
   opacity: 0;
   transition: 1.5s;
 }
 .practice-arrow-2{
-  height: 10px;
-  width: 100px;
+  color:white;
   left: 3.5vw;
-  top: 83%;
+  top: 43%;
   position: absolute;
   opacity: 0;
   transition: 1.5s;
@@ -36,9 +34,12 @@
   width: 100%;
   transition:1s;
 }
+.about-more{
+  margin-right: 30px;
+}
 .practice-text-3{
   margin-top: -100px;
-  margin-right: 300px;
+  left: 20vw;
   font-size: 36px;
   right: 0;
   color: #fff;
@@ -94,22 +95,26 @@
 .practice-description-1{
   position: absolute;
   color: #fff;
-  margin-top: -145px;
-  margin-left: 16.5vw;
-  text-align: right;
+  margin-top: -158px;
+  margin-left: 20vw;
+  text-align: left;
   opacity: 0;
   transition: 1s;
-  width: 30vw;
+  width: 25vw;
+  font-size: 22.5px;
+  line-height: 27px;
 }
 .practice-description-2{
   position: absolute;
   color: #fff;
-  margin-top: -145px;
+  margin-top: -175px;
   margin-left: 3.5vw;
   text-align: left;
   opacity: 0;
   transition: 1s;
-  width: 40vw;
+  width: 25vw;
+  font-size: 22.5px;
+  line-height: 27px;
 }
 .practice-description-3{
   @extend .practice-description-2;
