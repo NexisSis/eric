@@ -8,7 +8,13 @@
         padding-bottom:0px;
     }
     .nav-item{
-        margin: 0 30px;
+        margin: 0 27px;
+    }
+    .main-block-text-6{
+        font-size: 26px;
+    }
+    .main-block-text-5{
+
     }
     .main{
         background-position-y: -200px;
@@ -47,7 +53,6 @@
         font-size: 24px;
     }
     .main-block-button-1{
-        margin-left: -5px;
         padding: 18px 54px;
         font-size: 15px;
     }
@@ -76,8 +81,17 @@
     }
     .honors-text-1 {
         display: block;
-        font-size: 28px;
+        font-size: 26px;
         color: #003466;
+    }
+    .honors-text-3{
+        font-size: 14px;
+    }
+    .testimonials-div-3{
+        padding: 46px 70px 120px;
+    }
+    .testimonials-div-1{
+        height: 720px;
     }
     .bio-text-2 {
         font-size: 17px;
@@ -99,37 +113,6 @@
     }
     .offer-div{
         padding-top: 22px;
-    }
-    .testimonials-div-2 {
-        height: 433px;
-        width: 613px;
-    }
-    .testimonials-div-3 {
-        font-size: 18px;
-        line-height: 26px;
-        height: unset;
-    }
-    .testimonials-div-4 {
-        width: 285px;
-        background-color: #0f4c85;
-        margin-left: 43px;
-        height: 97px;
-        margin-top: -45px;
-        position: relative;
-        padding: 32px 135px;
-        font-size: 26px;
-        color: #fff;
-    }
-    .testimonials-div-5 {
-        font-size: 18px;
-        line-height: 31px;
-        height: 387px;
-    }
-    .testimonials-margin-left{
-        margin-left:0px;
-    }
-    .testimonials-margin-right{
-        margin-left:0px;
     }
     .contact-book {
         display: none;
@@ -237,21 +220,35 @@
     .main-block-1{
         padding-top: 55px;
     }
-    .main-block-text-1{
-        font-size: 37px;
-    }
     .main-block-text-3{
         font-size: 45px;
     }
     .main-block-text-5{
-        font-size: 28px;
+        font-size: 24px;
+        margin-left:0px;
+    }
+    .main-block-text-6{
+        font-size:30px;
+    }
+    .main-block-text-1, .main-block-text-2{
+        font-size: 35px;
     }
     .main{
-        height: 391px;
+        height: 375px;
     }
     .main-img-1{
-        margin-top: 96px;
-        height: 291px;
+        margin-top: 25px;
+        height: 350px;
+        margin-left: -82px;
+    }
+    .main-block-button-1{
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 18px 64px;
+        font-size: 17px;
+    }
+    #honors{
+        height: 235px;
     }
     .logo-block-text-1{
         font-size:15px;
@@ -285,20 +282,9 @@
     }
     .jcarousel-control-next{
         right: 20px;
-        top: 249px;
+        top: 195px;
     }
-    .squareParrent {
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-        transition: 1s;
-        padding: 4px;
-        width: 64px;
-        height: 64px;
-        border: 2px solid #003466;
-        margin-top: 28px;
-        margin-left: -95px;
-        position: absolute;
-    }
+
     .logo-block-button {
         margin-left: -73px;
         letter-spacing: 1px;
@@ -310,11 +296,21 @@
     .practice-img{
         height: 285px;
     }
+    .practice-text-3{
+        left: 5vw;
+    }
+    .practice-arrow,.practice-arrow-2{
+        left: 5vw;
+        top: 7vw;
+    }
     .practice-div-4:hover .practice-text-4{
         margin-left: 50px;
     }
-    .about-div-2{
-      margin-left:0px;
+    .about-text-1{
+        font-size:40px;
+    }
+    .about-text-5{
+        font-size: 37px;
     }
     .about-text-4{
         font-size: 33PX;
@@ -322,12 +318,19 @@
     .about-button{
         font-size: 15px;
     }
-    .about-div-3{
-        height: 422px;
+    .about-text-item-1{
+        font-size: 21px;
+    }
+    .about-text-item-2{
+        font-size: 17px;
+    }
+    .about-horizontal-line-2{
+        width: 129%;
     }
     .bio-photo {
-        height: 318px;
-        margin-top: 315px;
+        height: 415px;
+        margin-top: 210px;
+        margin-left: -95px;
     }
     .bio-text-1{
         font-size: 43px;
@@ -341,55 +344,26 @@
     .bio-button {
         margin-top: 30px;
     }
-    .testimonials-div-1{
-        font-size: 40px;
-    }
-    .testimonials-margin-left{
-        margin-left: 0px;
-    }
-    .testimonials-margin-right{
-        margin-left:0px;
-    }
-    .testimonials-div-3 {
-        background-color: #fff;
-        margin-top: 74px;
-        padding: 42px 53px;
-        font-size: 14px;
-        line-height: 22px;
-        color: #003466;
-        position: relative;
-        height: unset;
-    }
-    .testimonials-div-4 {
-        width: 361px;
-        background-color: #0f4c85;
-        margin-left: 59px;
-        height: 98px;
-        margin-top: -51px;
-        position: relative;
-        padding: 33px 135px;
-        font-size: 24px;
-        color: #fff;
+    .testimonials-text-1{
+        font-size: 45px;
     }
     .practice-description-1{
-        margin-left: 7.5vw;
+        left:5vw;
         width: 36.5vw;
-    }
-    .practice-arrow{
-        right: 6.5vw;
+        margin-left:0;
     }
     .practice-description-2{
         width: 45vw;
     }
-    .testimonials-div-5 {
-        background-color: #fff;
-        margin-top: 74px;
-        height: 328px;
-        padding: 42px 53px;
-        font-size: 15px;
-        line-height: 22px;
-        color: #003466;
-        position: relative;
+    .practice-description-1, .practice-description-2, .practice-description-3{
+        font-size: 16.5px;
+    }
+    .testimonials-div-3{
+        padding: 46px 100px 120px;
+        font-size:16px;
+    }
+    .testimonials-div-1{
+        height: 600px;
     }
     .contact-book {
         margin-left: 125px;
@@ -450,7 +424,7 @@
         font-size: 16px;
     }
     .main-block-text-5{
-        font-size: 28px;
+        font-size: 24px;
     }
     .main-block-text-1, .main-block-text-2{
         font-size: 33px;
@@ -458,12 +432,30 @@
     .main-block-text-3{
         font-size: 48px;
     }
+    .jcarousel-wrapper{
+        width: 80%;
+    }
+    .testimonials-div-1{
+        height: 600px;
+    }
+    .testimonials-div-1-border{
+        height: 500px;
+    }
     .practice-description-1{
         margin-left: 6.5vw;
         width: 39vw;
     }
     .practice-description-2{
         width: 43vw;
+    }
+    .practice-text-3{
+        left: 7vw;
+    }
+    .practice-arrow{
+        left:7vw;
+    }
+    .practice-text-4{
+        margin-left: 45px;
     }
     .bio-photo {
         height: 388px;
@@ -475,14 +467,8 @@
     .contact-book {
         margin-left: 255px;
     }
-    .contact-div-1 {
-        margin-top: 73px;
-        margin-left: -21px;
-        font-size: 33px;
-        color: #fff;
-        font-weight: 700;
-        line-height: 41px;
-        z-index: 1;
+    .contact-text-1{
+        font-size: 26px;
     }
     .contact-b-card-1 {
         margin-left: -29px;
@@ -519,7 +505,43 @@
         display:none;
     }
     .logo-block-call-div{
-        margin-bottom:24px;
+        margin-bottom:7px;
+    }
+    .logo-block-logo-div{
+        text-align:center!important;
+    }
+    .main{
+        height: 385px;
+    }
+    .main-block-text-6{
+        font-size: 40px;
+    }
+    .main-block-text-1, .main-block-text-2{
+        font-size: 33px;
+    }
+    .main-block-text-3{
+        font-size: 37px;
+        margin-top: -4px;
+        margin-bottom: 5px;
+    }
+    .main-block-button-1{
+        padding: 18px 54px;
+        font-size: 23px;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    .main-img-1{
+        margin-top:50px;
+    }
+    .main-block-text-5{
+        margin-left:0px;
+    }
+    .honors-text-1{
+        font-size: 40px;
+        text-align:center;
+    }
+    .honors-text-3{
+        text-align:center;
     }
     .navbar-toggler-icon{
         width: 2em;
@@ -528,25 +550,47 @@
     .navbar-toggler{
         margin-right: 15px;
     }
-    .testimonials-div-2{
-        width: 555px;
+    .practice-arrow, .practice-arrow-2{
+        top: 80%;
     }
     .main-img-1{
         height: 333px;
         position: absolute;
-        margin-left: 300px;
+        margin-left: 400px;
         display: inherit;
     }
     .main{
         overflow: hidden;
         position: relative;
     }
+    #bio{
+        text-align:center;
+    }
+    .bio-horizontal-line{
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .bio-div-2{
+        padding-right: 0px;
+    }
+    .testimonials-div-3{
+        padding: 45px 50px 120px;
+    }
     .honors-horizontal-line{
         display: none;
     }
+    .testimonials-div-1{
+        height: 855px;
+    }
+    .testimonials-div-1-border{
+        height: 750px;
+    }
     .jcarousel-control-next{
-        right: -55px;
+        right: -60px;
         top: 58px;
+    }
+    .jcarousel-control-next{
+        left:unset;
     }
     .jcarousel-wrapper{
         margin-top: 15px;
@@ -578,9 +622,7 @@
         height: 80px;
         margin-left: 35px;
     }
-    .about-div-3{
-        height: 630px;
-    }
+
     .about-button {
         font-size: 21px;
     }
@@ -622,6 +664,15 @@
     }
 }
 @media(max-width: 576px){
+    .main-block-text-6,.main-block-text-1, .main-block-text-2{
+        font-size: 25px;
+    }
+    .main-block-text-5{
+        font-size: 22px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+    }
     .practice-div-3:hover .practice-text-3, .practice-div-4:hover .practice-text-4{
         margin-right: 60px;
         margin-top: -69px;
@@ -663,9 +714,6 @@
     .main-block-1{
         text-align: center;
     }
-    .main-block-text-1, .main-block-text-2 {
-        font-size: 16px;
-    }
     .main-block-text-2{
         margin-top:0px;
     }
@@ -673,10 +721,11 @@
         font-size: 30px;
         line-height: 32px;
         DISPLAY: block;
-        margin-top: 12px;
-        margin-bottom: 12px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     .main-block-text-5{
+
         font-size: 22px;
     }
     .main{
@@ -707,7 +756,7 @@
     .main-block-button-1{
         display:block;
         padding: 14px 52px;
-        font-size: 12px;
+        font-size: 17px;
         margin-left:0px;
         margin: 20px auto;
     }
@@ -716,7 +765,11 @@
         display: none;
     }
     #honors{
-        height: 305px;
+        height: 265px;
+    }
+    .about-horizontal-line-1{
+        margin-left:auto;
+        margin-right: auto;
     }
     .honors-arrow{
         width: 28px;
@@ -729,8 +782,8 @@
         text-align: center;
     }
     .jcarousel-control-next{
-        right: -20px;
-        top: 67px;
+        right: -44px;
+        top: 34px;
         left: unset;
     }
     .jcarousel-img-1{
@@ -751,9 +804,6 @@
     }
     .about-text-4{
         font-size: 26PX;
-    }
-    .testimonials-div-2{
-        width: 320px;
     }
     .logo-block-text-4{
         font-size: 8px;
@@ -780,20 +830,13 @@
     .about-text-item-1{
         font-size: 23px;
     }
-    .testimonials-div-4{
-        width: 285px;
-        margin-left: 15px;
-        height: 97px;
-        padding: 32px 135px;
-        font-size: 23px;
-    }
     .about-div-2{
-        margin-left:0px;
         margin-top: 50px;
         text-align: center;
+        padding-bottom:0px;
     }
-    .about-text-2{
-        font-size: 30px;
+    .about-text-2,.about-text-3{
+        font-size: 20px;
         line-height: 30px;
     }
     .about-horizontal-line-3{
@@ -801,9 +844,6 @@
         width: 150px;
         margin-top: 20px;
         margin-bottom: 32px;
-    }
-    .about-text-3{
-        font-size:16px;
     }
     .about-horizontal-line-2{
         border-bottom: 2px solid #ceab6f;
@@ -816,15 +856,33 @@
         text-align: center;
     }
     .about-text-4{
-        padding: 50px 0px;
+        padding: 50px 50px 0px;
     }
     .about-button{
         margin-left:0px;
         font-size: 15px;
         padding: 13px 34px;
+        margin-bottom: 55px;
     }
     .about-div-3{
-        height: 380px;
+        margin-bottom: 38px;
+    }
+    .about-text-5{
+        font-size:34px;
+    }
+    .about-item-container{
+        padding-left: 0px;
+    }
+    .about-div-4{
+        padding-bottom: 35px;
+    }
+    .about-img-1{
+        position:inherit;
+    }
+    .about-horizontal-line-2{
+        margin-left:auto;
+        margin-right: auto;
+        left:unset;
     }
     .practice-text-1{
         font-size: 35px;
@@ -863,36 +921,7 @@
     .offer-text-1{
         font-size: 24px;
     }
-    #testimonials{
-        text-align: center;
-    }
-    .testimonials-div-1{
-        font-size: 28px;
-        line-height: 36px;
-        padding-top: 50px;
-    }
-    .testimonials-line-1{
-        width: 150px;
-        border-bottom: 3px solid #ceab6f;
-    }
-    .testimonials-div-2{
-        display: none;
-    }
-    .testimonials-div-3{
-        padding: 31px 27px;
-        font-size: 13px;
-        margin-top: 30px;
-        height: unset;
-    }
-    .testimonials-div-4{
-        margin-top: -15px;
-    }
-    .testimonials-div-5{
-        padding: 31px 27px;
-        font-size: 13px;
-        margin-top: 30px;
-        height: unset;
-    }
+
     .contact-from{
         margin-top: 50px;
     }
