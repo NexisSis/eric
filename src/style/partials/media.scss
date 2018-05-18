@@ -1,5 +1,30 @@
 // Medium devices (tablets, 768px and up)
 @media (max-width: 991.98px) {
+    .innerpage-header-bg{
+        display: none;
+    }
+    .innerpage-div-1{
+        width: 100%;
+        margin-top:0px;
+    }
+    .innerpage-div-2{
+        width: 100%;
+    }
+    .innerpage-about-3 {
+        width: 66.66666%;
+    }
+    .innerpage-about-2 {
+        width: 66.66666%;
+    }
+    .innerpage-about-1 {
+        width: 33.33333%;
+    }
+    .contact-text-1{
+        font-size: 27px;
+    }
+    .practice-arrow, .practice-arrow-2{
+        top:85%;
+    }
     .footer-text-align{
         text-align:center;
     }
@@ -91,7 +116,7 @@
         padding: 46px 70px 120px;
     }
     .testimonials-div-1{
-        height: 720px;
+        height: unset;
     }
     .bio-text-2 {
         font-size: 17px;
@@ -114,13 +139,16 @@
     .offer-div{
         padding-top: 22px;
     }
-    .contact-book {
-        display: none;
+    .contact-div-2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 375px;
+    }
+    .contact-book{
+        margin-left: -482px;
     }
     .contact-pens {
-        right: 18px;
-        margin-top: -300px;
-        display: inherit;
+        display: none;
     }
     .contact-div-1 {
         text-align:center;
@@ -152,6 +180,7 @@
     }
     .about-text-4{
         font-size: 50PX;
+        line-height: unset;
     }
     .about-div-3{
         margin-top: 50px;
@@ -172,12 +201,7 @@
         margin-top: -160px;
     }
     #contact{
-        height: 765px;
-    }
-    .contact-book{
-        margin-left: -310px;
-        margin-top: 208px;
-        display: initial;
+        height: 800px;
     }
     .footer-2-logo{
         display:none;
@@ -202,6 +226,15 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .innerpage-about-3 {
+        width: 50%;
+    }
+    .innerpage-about-2 {
+        width: 50%;
+    }
+    .innerpage-about-1 {
+        width: 25%;
+    }
     .nav-item{
         margin: 0 35px;
     }
@@ -363,10 +396,10 @@
         font-size:16px;
     }
     .testimonials-div-1{
-        height: 600px;
+        height: unset;
     }
     .contact-book {
-        margin-left: 125px;
+
     }
     .contact-pens {
        display: none;
@@ -388,6 +421,13 @@
         -webkit-transform: rotate(-18deg);
         transform: rotate(-18deg);
     }
+    .contact-text-1{
+        font-size: 21px;
+        letter-spacing: unset;
+    }
+    .contact-div-2{
+        width: 400px;
+    }
     .footer-text-2{
         font-size: 10px;
     }
@@ -407,6 +447,15 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1620px){
+    .innerpage-about-3 {
+        width: 50%;
+    }
+    .innerpage-about-2 {
+        width: 50%;
+    }
+    .innerpage-about-1 {
+        width: 25%;
+    }
     .jcarousel-control-next{
         left:88%;
     }
@@ -465,7 +514,7 @@
         display: none;
     }
     .contact-book {
-        margin-left: 255px;
+
     }
     .contact-text-1{
         font-size: 26px;
@@ -580,10 +629,10 @@
         display: none;
     }
     .testimonials-div-1{
-        height: 855px;
+        height: unset;
     }
     .testimonials-div-1-border{
-        height: 750px;
+        height: 600px;
     }
     .jcarousel-control-next{
         right: -60px;
@@ -645,7 +694,7 @@
         display: none;
     }
     .contact-book{
-        margin-left: -394px;
+
     }
     #footer{
         height: 450px;
@@ -664,6 +713,24 @@
     }
 }
 @media(max-width: 576px){
+    .about-mobile-1{
+        display: block;
+    }
+    .about-mobile-2{
+        display: none;
+    }
+    .innerpage-about-3 {
+        width: 100%;
+    }
+    .innerpage-about-2 {
+        width: 100%;
+    }
+    .innerpage-about-1 {
+        width: 50%;
+    }
+    .contact-text-1{
+        font-size: 21px;
+    }
     .main-block-text-6,.main-block-text-1, .main-block-text-2{
         font-size: 25px;
     }
@@ -729,7 +796,8 @@
         font-size: 22px;
     }
     .main{
-        height: 320px;
+        height: unset;
+        padding-bottom: 40px
     }
     .main-block-button-xs{
         padding: 12px 0px;
@@ -765,7 +833,8 @@
         display: none;
     }
     #honors{
-        height: 265px;
+        height: unset;
+        padding-bottom: 15px;
     }
     .about-horizontal-line-1{
         margin-left:auto;
@@ -782,7 +851,7 @@
         text-align: center;
     }
     .jcarousel-control-next{
-        right: -44px;
+        right: -40px;
         top: 34px;
         left: unset;
     }
@@ -927,7 +996,7 @@
     }
     .contact-book{
         margin-left: -482px;
-        margin-top: 303px;
+        margin-top:-20px;
     }
     #contact{
         height: 875px;
@@ -941,6 +1010,10 @@
     }
 }
 @media(max-width:1620px){
+    .innerpage-div-4, .innerpage-div-5{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
     .logo-button-animation{
         display: none;
     }
@@ -962,6 +1035,32 @@
         display: none;
     }
 }
-@media(max-width: 576px){
-
+@media(max-width: 500px){
+    .testimonials-div-1{
+        width: 95vw;
+        padding-bottom: 65px;
+    }
+    .testimonials-jcarousel-wrapper{
+        width:unset;
+    }
+    .testimonials-div-1-border{
+        display:none;
+    }
+    .testimonials-div-3 {
+        padding: 16px 16px;
+    }
+    .contact-text-1{
+        font-size:20px;
+    }
+    .contact-text-2{
+        display: -webkit-inline-box;
+    }
+    .contact-text-3{
+        display: -webkit-inline-box;
+    }
+}
+@media(max-width: 400px){
+    .innerpage-about-1 {
+        width: 100%;
+    }
 }
