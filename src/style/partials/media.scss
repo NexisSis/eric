@@ -1,5 +1,17 @@
 // Medium devices (tablets, 768px and up)
 @media (max-width: 991.98px) {
+    .about-page-div-1,.about-page-div-2,.about-page-div-3,.about-page-div-4{
+        width: 100%;
+    }
+    .about-page-triangle,.about-page-triangle-2,.about-page-triangle-down{
+        display: none;
+    }
+    .about-page-ul-2{
+        width: 100%;
+    }
+    .about-page-div-7 {
+        margin-bottom: 50px;
+    }
     .innerpage-header-bg{
         display: none;
     }
@@ -713,6 +725,18 @@
     }
 }
 @media(max-width: 576px){
+    .about-page-text-1{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .about-page-div-7 {
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .about-text-4{
+        text-align: center;
+    }
     .about-mobile-1{
         display: block;
     }

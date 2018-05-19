@@ -52,6 +52,8 @@
   font-size: 17px;
   font-weight: 500;
   text-transform: uppercase;
+  transition: 1s;
+
 }
 .innerpage-div-3{
   margin-top: 35px;
@@ -100,4 +102,7 @@
 }
 .about-mobile-2{
   display: block;
+}
+.innerpage-button:hover{
+  @extend .about-button:hover;
 }
