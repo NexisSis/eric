@@ -760,8 +760,6 @@
     }
     .main-block-text-5{
         font-size: 22px;
-        margin-left: auto;
-        margin-right: auto;
         margin-top: -20px;
     }
     .practice-div-3:hover .practice-text-3, .practice-div-4:hover .practice-text-4{
@@ -803,7 +801,7 @@
         width: 255px;
     }
     .main-block-1{
-        text-align: center;
+        text-align: left;
     }
     .main-block-text-2{
         margin-top:0px;
@@ -849,14 +847,21 @@
         display:block;
         padding: 14px 52px;
         font-size: 17px;
-        margin-left:0px;
-        margin: 20px auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .main-img-1{
         display: none;
     }
+    .main-img-2 {
+        display: block;
+        position: absolute;
+        height: 100%;
+        right: -200px;
+    }
     #honors{
+
         height: unset;
         padding-bottom: 15px;
     }
