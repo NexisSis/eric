@@ -11,8 +11,6 @@
   font-weight: bold;
   text-transform: uppercase;
   color: $main-block-blue;
-
-
 }
 .main-block-text-2{
   display: block;
@@ -21,7 +19,6 @@
   color: $main-block-blue;
   text-transform: uppercase;
   margin-top: -5px;
-
 }
 .main-block-text-3{
   color: $main-block-yellow;
@@ -69,6 +66,9 @@
   font-weight: bold;
   cursor: pointer;
   transition:1s;
+}
+.main-img-2{
+  display: none;
 }
 .main-block-button-1:hover{
   background-color:$main-block-yellow;

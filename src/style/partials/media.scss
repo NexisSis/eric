@@ -914,6 +914,7 @@
     }
     .about-div-1{
         margin-top: 42px;
+        padding: 0px;
         margin-left: 0px;
     }
     .about-text-1{
@@ -949,7 +950,8 @@
         text-align: center;
     }
     .about-text-4{
-        padding: 50px 50px 0px;
+        padding: 38px 20px 0;
+        font-size: 29px;
     }
     .about-button{
         margin-left:0px;
@@ -968,6 +970,10 @@
     }
     .about-div-4{
         padding-bottom: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 35px;
+        margin-bottom: -25px;
     }
     .about-img-1{
         position:inherit;
@@ -1060,6 +1066,9 @@
     }
 }
 @media(max-width: 500px){
+    #inner img{
+        height: 100%;
+    }
     .testimonials-div-1{
         width: 95vw;
         padding-bottom: 65px;
