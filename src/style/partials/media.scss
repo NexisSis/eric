@@ -187,9 +187,6 @@
     .about-div-3{
         margin-left: 0px;
     }
-    .about-text-3{
-        font-size: 25px;
-    }
     .about-text-4{
         font-size: 50PX;
         line-height: unset;
@@ -454,19 +451,38 @@
     .footer-minus-margin-left {
         margin-left: -6px;
     }
-
  }
-
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) and (max-width: 1620px){
-    .innerpage-about-3 {
-        width: 50%;
+@media (min-width: 1200px) and(max-width: 1620px){
+
+    .about-text-item-1{
+        font-size: 21px;
     }
-    .innerpage-about-2 {
-        width: 50%;
+    .about-text-item-2{
+        font-size: 16px;
     }
-    .innerpage-about-1 {
-        width: 25%;
+    .about-text-4{
+        font-size: 32px;
+        padding-top: 69px;
+    }
+    .about-div-2{
+        padding-bottom: 50px;
+    }
+    .about-horizontal-line-1{
+        margin-bottom: 25px;
+    }
+    .about-div-4{
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .about-text-1{
+        font-size: 35px;
+    }
+    .about-text-2{
+        font-size: 17px;
+    }
+    .about-text-5{
+        font-size: 35px;
     }
     .jcarousel-control-next{
         left:88%;
@@ -474,12 +490,40 @@
     .nav-item{
         margin: 0px 50px;
     }
+    .about-text-1{
+        margin-top:0px;
+    }
+    .practice-div-1{
+        margin-top:0px;
+    }
+    .practice-div-2 {
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    .practice-text-1{
+        font-size: 35px;
+    }
+    .practice-img {
+        height: 325px;
+    }
+    .practice-arrow, .practice-arrow-2{
+        top:37%;
+    }
+    .practice-text-3, .practice-text-4{
+        font-size: 26px;
+    }
+    .practice-description-1, .practice-description-2, .practice-description-3{
+        font-size: 19px;
+    }
     .main{
-        height: 462px;
+        height: 400px;
+    }
+    .main-block-1 {
+        padding-top: 50px;
     }
     .main-img-1 {
         height: 345px;
-        margin-top: 117px;
+        margin-top: 55px;
     }
     .main-block-button-1{
         font-size: 16px;
@@ -497,10 +541,10 @@
         width: 80%;
     }
     .testimonials-div-1{
-        height: 600px;
+        height: 542px;
     }
     .testimonials-div-1-border{
-        height: 500px;
+        height: 450px;
     }
     .practice-description-1{
         margin-left: 6.5vw;
@@ -520,13 +564,28 @@
     }
     .bio-photo {
         height: 388px;
-        margin-top: 243px;
+        margin-top: 100px;
+    }
+    .bio-button{
+        margin-bottom: 0px;
+    }
+    .bio-div-1{
+        margin-top: 35px;
+    }
+    .bio-text-1{
+        font-size: 38px;
+    }
+    .bio-text-2{
+        font-size: 18px;
     }
     .contact-pens {
         display: none;
     }
-    .contact-book {
-
+    .testimonials-text-1 {
+        font-size: 38px;
+    }
+    .testimonials-line-1{
+        border-bottom: 3px solid #ceab6f;
     }
     .contact-text-1{
         font-size: 26px;
@@ -545,6 +604,9 @@
         -webkit-transform: rotate(-18deg);
         transform: rotate(-18deg);
     }
+    #testimonials{
+        padding-top: 40px;
+    }
     .footer-minus-margin-left {
         margin-left: -6px;
     }
@@ -559,6 +621,59 @@
     }
     .logo-block-button-div{
         margin-left: -25px;
+    }
+    .footer-2-div-1{
+        margin-left:0px;
+    }
+    .offer-text-1{
+        font-size: 30px;
+    }
+    #offer {
+        height: 165px;
+    }
+    .offer-div {
+        padding-top: 25px;
+    }
+    .about-page-text-1, .innerpage-text-1{
+        font-size: 35px;
+    }
+    .innerpage-line{
+        border-bottom: 3px solid #ceab6f;
+        margin-top: 10px;
+    }
+    .about-page-text-2, .innerpage-text-2{
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    .about-page-text-3, .about-page-text-4{
+        font-size: 22px;
+    }
+    .about-page-line-1, .about-page-line-2{
+        width: 50px;
+    }
+    .about-page-ul-1, .about-page-ul-2{
+        font-size: 15px;
+    }
+    .about-page-div-5{
+        background-position-x: -270px;
+    }
+    .about-page-div-1, .about-page-div-8{
+        padding: 46px 47px 30px;
+    }
+    .about-page-div-6{
+        background-position-x: -275px;
+    }
+    .innerpage-text-3{
+        font-size: 23px;
+    }
+    #inner img{
+        height:230px;
+    }
+    .innerpage-text-4{
+        font-size: 16px;
+    }
+    .innerpage-div-2{
+        padding: 74px 55px 40px;
     }
 }
 @media(max-width: 767.98px){
@@ -861,10 +976,10 @@
         right: -200px;
     }
     #honors{
-
         height: unset;
-        padding-bottom: 15px;
+        padding-bottom: 50px;
     }
+
     .about-horizontal-line-1{
         margin-left:auto;
         margin-right: auto;
@@ -874,31 +989,28 @@
     }
     .honors-text-1{
         text-align: center;
+        font-size: 30px;
     }
     .honors-text-3{
         font-size: 15px;
         text-align: center;
     }
     .jcarousel-control-next{
-        right: -40px;
-        top: 34px;
-        left: unset;
+        left: 50%;
+        margin-top: 20px;
+        width: 28px;
+    }
+    .jcarousel-wrapper{
+        margin-left:0px;
+        margin-right: 0px;
     }
     .jcarousel-img-1{
         height: 50px;
     }
-    .jcarousel-img-2, .jcarousel-img-3{
+    .jcarousel-img-2, .jcarousel-img-3,.jcarousel-img-4,.jcarousel-img-5,.jcarousel-img-6{
         margin-top: 0px;
         height: 50px;
-    }
-    .jcarousel-img-4, .jcarousel-img-5{
-        height: 50px;
-        margin-left: 35px;
-        margin-top: 0px;
-    }
-    .jcarousel-img-6{
-        height:50px;
-        margin-left:35px;
+        margin-left: 20px;
     }
     .about-text-4{
         font-size: 26PX;
@@ -909,9 +1021,13 @@
     }
     .logo-block-text-1{
         font-size: 12px;
+        display:none;
     }
     .logo-block-text-2{
-        font-size: 15px;
+        font-size: 22px;
+    }
+    .main-block-1{
+        padding-top: 70px;
     }
     .navbar-toggler-icon{
         width: 1.7em;
@@ -923,11 +1039,11 @@
         margin-left: 0px;
     }
     .about-text-1{
-        font-size: 29px;
+        font-size: 25px;
         line-height: 35px;
     }
     .about-text-item-1{
-        font-size: 23px;
+        font-size: 20px;
     }
     .about-div-2{
         margin-top: 50px;
@@ -937,6 +1053,10 @@
     .about-text-2,.about-text-3{
         font-size: 20px;
         line-height: 30px;
+    }
+    .about-horizontal-line-1{
+        margin-top: 23px;
+        margin-bottom: 23px;
     }
     .about-horizontal-line-3{
         border-bottom: 2px solid #ceab6f;
@@ -956,7 +1076,7 @@
     }
     .about-text-4{
         padding: 38px 20px 0;
-        font-size: 29px;
+        font-size: 25px;
     }
     .about-button{
         margin-left:0px;
@@ -968,7 +1088,7 @@
         margin-bottom: 38px;
     }
     .about-text-5{
-        font-size:34px;
+        font-size:25px;
     }
     .about-item-container{
         padding-left: 0px;
@@ -989,7 +1109,11 @@
         left:unset;
     }
     .practice-text-1{
-        font-size: 35px;
+        font-size: 25px;
+    }
+    .practice-div-2{
+
+        margin-bottom: 25px;
     }
     .practice-div-3, .practice-div-4{
         padding-left: 0px!important;
@@ -1011,7 +1135,7 @@
         margin: 25px auto;
     }
     .bio-text-1{
-        font-size: 34px;
+        font-size: 25px;
     }
     .bio-div-1{
         margin-top:40px;
@@ -1025,9 +1149,15 @@
     .offer-text-1{
         font-size: 24px;
     }
-
+    .testimonials-text-1{
+        font-size: 25px;
+        line-height: unset;
+    }
     .contact-from{
         margin-top: 50px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .contact-book{
         margin-left: -482px;
@@ -1042,6 +1172,22 @@
     }
     .footer-text-align{
         margin-top: 25px;
+    }
+    .footer-2-div-1{
+        margin-left:0px;
+        text-align: center;
+    }
+    .about-page-text-1, .innerpage-text-1{
+        font-size: 35px;
+    }
+    .about-page-text-2, .innerpage-text-2{
+        margin-top: 25px;
+    }
+    .innerpage-line{
+        margin-top: 15px;
+    }
+    .about-page-text-2, .innerpage-text-2{
+        font-size: 19px;
     }
 }
 @media(max-width:1620px){
@@ -1088,7 +1234,10 @@
         padding: 16px 16px;
     }
     .contact-text-1{
-        font-size:20px;
+        font-size:17px;
+    }
+    .contact-div-1{
+        margin-top: 25px;
     }
     .contact-text-2{
         display: -webkit-inline-box;

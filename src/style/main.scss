@@ -12,6 +12,13 @@
 body{
   font-family: HelveticaNeueCyr;
 }
+a:hover{
+  text-decoration:none;
+}
+a{
+  color:white;
+}
+
 @import "partials/colors.scss";
 @import "partials/fonts";
 @import "partials/header";
