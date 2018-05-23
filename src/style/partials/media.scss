@@ -456,33 +456,52 @@
 @media (min-width: 1200px) and(max-width: 1620px){
 
     .about-text-item-1{
-        font-size: 21px;
+        font-size: 17px;
     }
     .about-text-item-2{
         font-size: 16px;
     }
+    .about-div-4{
+        margin-bottom: 150px;
+    }
     .about-text-4{
         font-size: 32px;
-        padding-top: 69px;
+        padding-top:25px;
     }
     .about-div-2{
-        padding-bottom: 50px;
+        padding-bottom: 30px;
+    }
+    .about-div-3{
+        margin-top:30px;
     }
     .about-horizontal-line-1{
-        margin-bottom: 25px;
+        margin-top: 5px;
+        border-bottom: 3px solid #ceab6f;
+        margin-bottom: 10px;
+    }
+    .about-horizontal-line-2{
+        top:8px;
+    }
+    .about-div-5 {
+        padding-top: 0px;
+        padding-bottom: 5px;
     }
     .about-div-4{
         padding-top: 40px;
         padding-bottom: 25px;
     }
     .about-text-1{
-        font-size: 35px;
+        font-size: 30px;
     }
     .about-text-2{
-        font-size: 17px;
+        font-size: 15px;
     }
     .about-text-5{
-        font-size: 35px;
+        font-size: 30px;
+    }
+    .about-button, .about-page-button{
+        padding: 14px 23px;
+        font-size: 13px;
     }
     .jcarousel-control-next{
         left:88%;
@@ -675,6 +694,10 @@
     .innerpage-div-2{
         padding: 74px 55px 40px;
     }
+    .about-div-1{
+        padding-bottom: 0px;
+    }
+
 }
 @media(max-width: 767.98px){
     .main-block-button-xs{
