@@ -406,7 +406,7 @@
     }
     .logo-block-text-2{
         font-size: 19px;
-    }   
+    }
     .logo-block-text-3{
         font-size:13px;
     }
@@ -750,7 +750,7 @@
     }
     .testimonials-div-1{
         padding-top: 35px;
-        height: 400px;
+        height: 425px;
     }
     .testimonials-div-1-border{
         height: 350px;
@@ -1269,10 +1269,6 @@
         text-align: center;
         padding-bottom:0px;
     }
-    .about-text-2,.about-text-3{
-        font-size: 20px;
-        line-height: 30px;
-    }
     .about-horizontal-line-1{
         margin-top: 23px;
         margin-bottom: 23px;
@@ -1436,12 +1432,17 @@
     }
 }
 @media(max-width: 500px){
+    .about-text-2,.about-text-3{
+        font-size: 17px;
+        line-height: 30px;
+    }
     #inner img{
         height: 100%;
     }
     .testimonials-div-1{
         width: 95vw;
-        padding-bottom: 65px;
+        margin-top: 35px;
+        padding-top: 30px;
     }
     .testimonials-jcarousel-wrapper{
         width:unset;

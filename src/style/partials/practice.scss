@@ -59,6 +59,14 @@
   transition: 1.5s;
   opacity: 1;
 }
+.practice-text-3, .practice-text-4{
+  top:100%;
+}
+.practice-description-1, .practice-description-2, .practice-description-3{
+  left:0;
+  top:100%;
+}
+
 .practice-div-3{
   background-color:$main-block-blue;
 }

@@ -12,7 +12,9 @@ var gulp = require('gulp'),
     pngquant = require('imagemin-pngquant'),
     rimraf = require('rimraf'),
     browserSync = require("browser-sync"),
-    reload = browserSync.reload;
+    reload = browserSync.reload,
+    minifyHTML = require('gulp-minify-html'),
+    cache = require('gulp-cache');
 
 var path = {
     build: {
@@ -54,6 +56,9 @@ var config = {
 gulp.task('html:build', function () {
     gulp.src(path.src.html)
         .pipe(rigger())
+        .pipe(minifyHTML({
+            quotes: true
+        }))
         .pipe(gulp.dest(path.build.html))
         .pipe(reload({stream: true}));
 });
@@ -85,14 +90,14 @@ gulp.task('style:build', function () {
 });
 gulp.task('image:build', function () {
     gulp.src(path.src.img)
-        // .pipe(imagemin({
-        //     progressive: true,
-        //     svgoPlugins: [{removeViewBox: false}],
-        //     use: [pngquant()],
-        //     interlaced: true
-        // }))
-        .pipe(gulp.dest(path.build.img))
-        //.pipe(reload({stream: true}));
+        .pipe(cache(imagemin([
+            imagemin.svgo(),
+            imagemin.optipng({optimizationLevel: 3}),
+            pngquant({quality: '65-70', speed: 5})
+        ], {
+            verbose: true
+        })))
+        .pipe(gulp.dest(path.build.img));
 });
 gulp.task('fonts:build', function() {
     gulp.src(path.src.fonts)

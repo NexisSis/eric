@@ -6,4 +6,5 @@
  * Custom
  */
 
-//= partials/app.js
+//= partials/animationSettings.js
+//= partials/carouselSettings.js
