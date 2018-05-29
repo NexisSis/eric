@@ -1,6 +1,9 @@
 
 #header{
   background-color: #eff3f6;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
 }
 .nav-item{
   margin-right: 40px;
@@ -14,6 +17,7 @@
   transition:1s;
   border-color:#fff0;
   margin: 0px 63px;
+  font-size: 15px;
 }
 
 .nav-item:hover{
@@ -49,13 +53,13 @@
   padding-left: 0px;
 }
 .logo-block{
-  height: 108px;
+  height: 100px;
   background-color: $logo-block-background-color;
 }
 .logo-image{
   margin-top: 10px;
   //margin-left: -78px;
-  width: 425px;
+  width: 370px;
 }
 .logo-block-call-div{
   //margin-top: 24px;
@@ -68,7 +72,7 @@
 .logo-block-text-1{
   font-family: Merriweather,serif;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-style: italic;
 }
 .logo-block-text-1-animation{
@@ -76,51 +80,51 @@
   transition:1s;
   z-index: 3;
   position:fixed;
-  top: 8px;
+  top: 1px;
 }
 .logo-block-text-2{
   color: $nav-font-color-hover;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: bold;
-  margin-left: 12px;
+  margin-left: 10px;
 }
 .logo-block-text-2-animation{
   animation: translateInTop 2s;
   z-index: 3;
   position:fixed;
-  top: 34px;
-  left: 45px;
+  top: 31px;
+  left: 44px;
 }
 .logo-img-animation{
   animation: translateInTop 2s;
   z-index: 3;
   position:fixed;
-  top: 48px;
+  top: 43px;
 }
 .logo-button-animation{
   animation: translateInTop 2s;
   position: fixed!important;
-  right: 60px;
-  top: -10px;
+  right: 54px;
+  top: -9px;
   z-index: 3;
 }
 .logo-block-text-3{
   color: $logo-block-text-3-color;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
   margin-top: 0px;
   margin-left: 3px;
   display: block;
-  letter-spacing: 1.35px;
+  letter-spacing: 1px;
 }
 .logo-block-text-4{
   color: $logo-block-text-4-color;
   display: block;
-  margin-top: 12px;
-  margin-left:2px;
+  margin-top: 10px;
+  margin-left:11px;
   //margin-left: -67px;
-  font-size: 12px;
-  letter-spacing: 6.8px;
+  font-size: 10px;
+  letter-spacing: 6px;
   font-style: normal;
   text-transform: uppercase;
   font-family: Merriweather,serif;
@@ -128,7 +132,7 @@
 .logo-block-logo-div{
   //margin-top: 22px;
   //margin-left: 87px;
-  margin-top:10px;
+  margin-top:9px;
 }
 .logo-block-button{
  /* background-color: #fff0;
@@ -138,18 +142,17 @@
   letter-spacing: 1px;
   font-size: 15px;
   text-transform: uppercase;*/
-  margin-left: 22px;
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: 13px;
   color: $nav-font-color-hover;
-  line-height: 18px;
+  line-height: 16px;
   display: block;
 }
 .logo-block-button-div{
   //margin-top: 32px;
   //margin-left: 24px;
   //margin-top: 17px;
-  margin-left:-25px;
+  margin-left:-22px;
   //margin-left: 19px;
 }
 

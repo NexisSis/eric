@@ -1,5 +1,8 @@
 // Medium devices (tablets, 768px and up)
 @media (max-width: 991.98px) {
+    #about-page,#inner{
+        padding-top: 140px;
+    }
     .main-block-button-1{
 
     }
@@ -1093,7 +1096,7 @@
         font-size: 25px;
     }
     .main-block-text-5{
-        font-size: 22px;
+        font-size: 20px;
         margin-top: -20px;
     }
     .practice-div-3:hover .practice-text-3, .practice-div-4:hover .practice-text-4{
@@ -1146,10 +1149,6 @@
         DISPLAY: block;
         margin-top: 5px;
         margin-bottom: 5px;
-    }
-    .main-block-text-5{
-
-        font-size: 22px;
     }
     .main{
         height: unset;
