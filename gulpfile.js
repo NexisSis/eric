@@ -55,7 +55,7 @@ var config = {
 
 gulp.task('html:build', function () {
     gulp.src(path.src.html)
-        .pipe(rigger())
+         .pipe(rigger())
         .pipe(minifyHTML({
             quotes: true
         }))
@@ -64,14 +64,14 @@ gulp.task('html:build', function () {
 });
 gulp.task('js:build', function () {
     gulp.src(path.src.js)
-        .pipe(rigger())
+         .pipe(rigger())
         .pipe(sourcemaps.init())
         .pipe(uglify())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.js))
         .pipe(reload({stream: true}));
     gulp.src(path.src.js2)
-        .pipe(rigger())
+         .pipe(rigger())
         .pipe(sourcemaps.init())
         .pipe(uglify())
         .pipe(sourcemaps.write())
