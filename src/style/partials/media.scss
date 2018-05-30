@@ -359,6 +359,9 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .nav-item{
+        font-size:12px;
+    }
     .innerpage-about-3 {
         width: 50%;
     }
@@ -427,10 +430,10 @@
         font-size:12px;
     }
     .logo-image{
-        width: 325px;
+        width: 300px;
     }
     .logo-block-text-4{
-        font-size: 10px;
+        font-size: 7px;
     }
     .checkBox svg {
         margin-left: -60px;
@@ -454,13 +457,19 @@
     }
 
     .logo-block-button {
-        margin-left: -73px;
+        margin-left: -100px;
         letter-spacing: 1px;
-        font-size: 14px;
+        font-size: 12px;
         color: #ceab6f;
         line-height: 18px;
         display: block;
     }
+    .checkBox{
+        margin: 8px auto;
+    }
+    .logo-block{
+        height:85px;
+         }
     .practice-img{
         height: 285px;
     }
