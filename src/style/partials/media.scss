@@ -1262,7 +1262,7 @@
     .main-block-button-1{
         border: 1px solid #fff;
         display: block;
-        padding: 11px 37px 8px;
+        padding: 13px 37px 11px;
         font-size: 13px;
         margin-top: 50px;
         margin-bottom: 20px;
@@ -1270,6 +1270,7 @@
         margin-right: auto;
         color: white;
         background-color: #fff3f345;
+        border:unset;
     }
 
     .main-img-1{
@@ -1279,7 +1280,7 @@
         display: block;
         position: absolute;
         height: 94vw;
-        right: -102px;
+        right: -33vw;
         top: -11px;
     }
     #honors{
@@ -1391,7 +1392,7 @@
         text-align: center;
     }
     .about-text-4{
-        padding: 12px 10px 0;
+        padding: 30px 10px 0;
         font-size: 18px;
         text-align: center;
     }
@@ -1589,7 +1590,7 @@
         display:none;
     }
     .testimonials-div-3 {
-        padding: 16px 20px;
+        padding: 30px 20px;
         font-family: unset;
         font-style: normal;
         font-size: 15px;
@@ -1601,12 +1602,16 @@
         height: unset;
         padding-bottom:13px;
         font-size: 20px;
-        background-color: #dedede82;
+        background-color: #dedede5c;
         width: 200px;
     }
-    .testimonials-line-3{
-        margin-left: 160px;
+    .testimonials-line-2{
+        margin-left:-67px;
     }
+    .testimonials-line-3{
+        margin-left: 190px;
+    }
+
     .contact-text-1{
         font-size:17px;
     }
