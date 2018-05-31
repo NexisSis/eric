@@ -1,0 +1,79 @@
+@media(max-width: 576px){
+  // read more about us
+  .read-more-state {
+    display: none;
+  }
+
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+  }
+
+  .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+  }
+
+  .read-more-state ~ .read-more-trigger:before,.read-more-state ~ .read-more-trigger {
+    content: 'more';
+  }
+
+  .read-more-state:checked ~ .read-more-trigger:before,.read-more-state:checked ~ .read-more-trigger {
+    content: 'less';
+  }
+
+  .read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color:white;
+    font-size: .9em;
+    line-height: 2;
+    border-radius: .25em;
+    position: relative;
+  }
+
+  //read more bio
+  .read-more-state-bio {
+    display: none;
+  }
+
+  .read-more-target-bio {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+  }
+
+  .read-more-state-bio:checked ~ .read-more-wrap-bio .read-more-target-bio {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+  }
+
+  .read-more-state-bio ~ .read-more-trigger-bio:before,.read-more-state-bio ~ .read-more-trigger-bio {
+    content: 'more';
+  }
+
+  .read-more-state-bio:checked ~ .read-more-trigger-bio:before,.read-more-state-bio:checked ~ .read-more-trigger-bio {
+    content: 'less';
+  }
+
+  .read-more-trigger-bio {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #ceab6f;
+    font-size: .9em;
+    line-height: 2;
+    border-radius: .25em;
+    position: relative;
+  }
+}
+
+.read-more-state, .read-more-state-bio,.bio-more-arrow{
+  display: none;
+}
