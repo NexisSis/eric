@@ -1098,6 +1098,13 @@
     }
 }
 @media(max-width: 576px){
+    .show-only-xs{
+        display: none;
+    }
+    .nopadding-xs{
+        padding-left:0px!important;
+        padding-right:0px!important;
+    }
     #about-page, #content, #inner{
         padding-top:94px;
     }
@@ -1118,7 +1125,7 @@
         padding-bottom: 15px;
     }
     .practice-div-1{
-        margin-top:30px;
+        margin-top:20px;
     }
     .about-page-text-1{
         font-size: 30px;
@@ -1262,7 +1269,7 @@
     .main-block-button-1{
         border: 1px solid #fff;
         display: block;
-        padding: 11px 37px 8px;
+        padding: 15px 37px 9px;
         font-size: 13px;
         margin-top: 50px;
         margin-bottom: 20px;
@@ -1286,7 +1293,10 @@
         height: unset;
         padding-bottom: 50px;
     }
-
+    .practice-text-2{
+        font-weight: 400;
+        display: block;
+    }
     .about-horizontal-line-1{
         margin-left:auto;
         margin-right: auto;
@@ -1361,7 +1371,7 @@
         margin-left: 0px;
     }
     .about-text-1 {
-        font-size: 17px;
+        font-size: 18px;
         line-height: 20px;
         color:white;
     }
@@ -1441,7 +1451,7 @@
     }
     .practice-div-2{
 
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
     .practice-div-3, .practice-div-4{
         padding-left: 0px!important;
@@ -1450,9 +1460,10 @@
     .practice-text-3, .practice-text-4{
         margin-top: -65px;
         font-size: 18px;
+        margin-left:20px;
     }
-    .practice-img{
-        height: 150px;
+    .practice-img {
+        height: 125px;
     }
     #bio{
         text-align: center;
@@ -1466,6 +1477,7 @@
     }
     .bio-text-2{
         font-weight: 400;
+        font-size: 13px;
     }
     .bio-horizontal-line{
         border-bottom: 5px solid #ceab6f;
@@ -1493,6 +1505,7 @@
     #testimonials{
         background: white;
         padding-top: 20px;
+        padding-bottom: 20px;
     }
     .testimonials-text-1{
         font-size: 21px;
@@ -1502,7 +1515,8 @@
         display: none;
     }
     .contact-from{
-        margin-top: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
@@ -1513,8 +1527,8 @@
         display: none;
     }
     #contact{
-        height: 875px;
-        background-color:white ;
+        height: unset;
+        background:white ;
     }
     .footer-logo{
         width: 280px;
@@ -1569,14 +1583,15 @@
 @media(max-width: 576px){
     .about-text-2,.about-text-3{
         color: #a9c1dc;
-        font-size: 12px;
+        font-size: 14px;
         line-height: unset;
+        padding: 0px 13px;
     }
     #inner img{
         height: 100%;
     }
     .testimonials-div-1{
-        width: 95vw;
+        width: 100vw;
         margin-top: 10px;
         padding-top: 30px;
         padding-bottom: 65px;
@@ -1592,11 +1607,12 @@
         padding: 16px 20px;
         font-family: unset;
         font-style: normal;
-        font-size: 15px;
+        font-size: 14px;
+        line-height: 23px;
         color:#a9c1dc;
     }
     .testimonials-div-2{
-        border: unset;
+        border: 2px solid white;
         font-family: unset;
         height: unset;
         padding-bottom:13px;
@@ -1607,8 +1623,17 @@
     .testimonials-line-3{
         margin-left: 160px;
     }
+    .practice-arrow, .practice-arrow-2, .practice-text-3, .practice-text-4{
+        margin-left:25px;
+    }
     .contact-text-1{
-        font-size:17px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #003465;
+    }
+    .contact-text-3{
+        background: #003465;
+        padding: 0 15px;
     }
     .contact-div-1{
         margin-top: 25px;
