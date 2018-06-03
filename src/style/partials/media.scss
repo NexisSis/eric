@@ -358,7 +358,7 @@
  }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (max-width: 1199.98px) {
     .nav-item{
         font-size:12px;
     }
@@ -1061,7 +1061,10 @@
         font-size: 21px;
     }
     .practice-img{
-        height: 300px;
+        height: 200px;
+    }
+    .practice-text-3, .practice-text-4 {
+        font-size: 15px;
     }
     #bio{
         background-size: 440%;
@@ -1092,10 +1095,21 @@
     }
     .practice-description-1,.practice-description-2,.practice-description-3{
         text-align: left;
-        margin-top: -190px;
         margin-left: 7.5vw;
-        width: 80vw;
+        width: 76%;
+        font-size: 12px;
+        line-height: unset;
+        margin-top: -130px;
     }
+    .practice-div-3:hover .practice-text-3, .practice-div-4:hover .practice-text-4{
+        margin-top:-170px;
+    }
+    .practice-arrow, .practice-arrow-2 {
+        left: 0;
+        font-size: 12px;
+        top: 85%;
+    }
+
 }
 @media(max-width: 576px){
     .tab-content{
