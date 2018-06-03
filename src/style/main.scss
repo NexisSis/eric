@@ -6,6 +6,14 @@
 /*
 * Custom
 */
+
+h1 {
+  font-size: 24px;
+}
+
+.show-only-xs{
+  display: none;
+}
 .nopadding {
   padding: 0 !important;
 }
@@ -17,6 +25,9 @@ a:hover{
 }
 a{
   color:white;
+}
+p{
+  margin-bottom: 0;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
   line-height: unset;
@@ -37,4 +48,5 @@ a{
 @import "partials/footer-2";
 @import "partials/innerPage";
 @import "partials/about-page.scss";
+@import "partials/animation.scss";
 @import "partials/media";
