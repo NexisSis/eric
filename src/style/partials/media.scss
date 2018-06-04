@@ -1,5 +1,8 @@
 // Large devices (desktops, 992px and up)
 @media (max-width: 1199.98px) {
+    #about-page, #content, #inner {
+        padding-top: 126px;
+    }
     .nav-item{
         font-size:12px;
     }
