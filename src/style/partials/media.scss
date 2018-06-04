@@ -1,3 +1,277 @@
+// Large devices (desktops, 992px and up)
+@media (max-width: 1199.98px) {
+    .nav-item{
+        font-size:12px;
+    }
+    .innerpage-about-3 {
+        width: 50%;
+    }
+    .innerpage-about-2 {
+        width: 50%;
+    }
+    .innerpage-about-1 {
+        width: 25%;
+    }
+    .jcarousel-img-1,.jcarousel-img-2,.jcarousel-img-3,.jcarousel-img-4,.jcarousel-img-5,.jcarousel-img-6{
+        margin-top:0px;
+        height: 100px;
+    }
+    .nav-item{
+        margin: 0 35px;
+    }
+    .footer-text-align{
+        text-align:center;
+    }
+    .logo-block-call-div{
+        margin-left: 0px;
+    }
+    .logo-block-logo-div{
+        margin-left: 0px;
+    }
+    .logo-block-button-div{
+        margin-left:0px;
+    }
+    .main-block-1{
+        padding-top: 55px;
+    }
+    .main-block-text-3{
+        font-size: 41px;
+    }
+    .main-block-text-5{
+        font-size: 22px;
+        margin-left:0px;
+    }
+    .main-block-text-6{
+        font-size:28px;
+    }
+    .main-block-text-1, .main-block-text-2{
+        font-size: 31px;
+    }
+    .main{
+        height: 375px;
+    }
+    .main-img-1{
+        margin-top: 25px;
+        height: 350px;
+        margin-left: -82px;
+    }
+    .main-block-button-1{
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 18px 64px;
+        font-size: 16px;
+    }
+    .logo-block-text-1{
+        font-size:14px;
+    }
+    .logo-block-text-2{
+        font-size: 17px;
+    }
+    .logo-block-text-3{
+        font-size:12px;
+    }
+    .logo-image{
+        width: 300px;
+    }
+    .logo-block-text-4{
+        font-size: 7px;
+    }
+    .checkBox svg {
+        margin-left: -60px;
+    }
+    .logo-block-button{
+        margin-left: -81px;
+    }
+    .honors-text-1{
+        font-size: 26px;
+    }
+    .honors-text-3 {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .honors-horizontal-line{
+        margin-left:355px;
+    }
+    .jcarousel-control-next{
+        left: 50%;
+        top: 152px;
+    }
+
+    .logo-block-button {
+        margin-left: -100px;
+        letter-spacing: 1px;
+        font-size: 12px;
+        color: #ceab6f;
+        line-height: 18px;
+        display: block;
+    }
+    .checkBox{
+        margin: 8px auto;
+    }
+    .logo-block{
+        height:85px;
+    }
+    .practice-img{
+        height: 285px;
+    }
+    .practice-text-3{
+        left: 5vw;
+    }
+    .practice-arrow,.practice-arrow-2{
+        left: 5vw;
+        top: 7vw;
+    }
+    .practice-div-4:hover .practice-text-4{
+        margin-left: 50px;
+    }
+    .about-text-1{
+        font-size: 22px;
+        margin-top:0px;
+        line-height: unset;
+    }
+    .about-text-2{
+        font-size: 16px;
+    }
+    .about-div-4{
+        padding-top: 40px;
+        margin-bottom: 200px;
+    }
+    .about-horizontal-line-1 {
+        border-bottom: 3px solid #ceab6f;
+        width: 120px;
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+    .practice-text-1{
+        font-size:27px;
+    }
+    .practice-text-3, .practice-text-4{
+        font-size: 22px;
+    }
+    .practice-div-3:hover .practice-text-3, .practice-div-4:hover .practice-text-4{
+        margin-top:-260px;
+    }
+    .bio-div-1{
+        margin-top: 28px;
+    }
+    .about-text-5{
+        font-size: 20px;
+    }
+    .about-text-4{
+        font-size: 22px;
+        padding-top: 50px;
+        line-height: unset;
+    }
+    .about-div-2{
+        padding-bottom: 50px;
+    }
+    .about-button{
+        font-size: 14px;
+    }
+    .about-text-item-1{
+        font-size: 16px;
+    }
+    .about-text-item-2{
+        font-size: 12px;
+    }
+    .about-horizontal-line-2{
+        width: 129%;
+    }
+    .bio-photo {
+        height: 386px;
+        margin-top: 88px;
+        margin-left: -77px;
+    }
+    .bio-button{
+        margin-bottom: 38px;
+    }
+    .bio-text-1{
+        font-size: 35px;
+    }
+    .bio-text-2 {
+        font-size: 16px;
+        font-weight: 300;
+        color: #003466;
+        line-height: unset;
+    }
+    .offer-div {
+        padding-top: 38px;
+    }
+    .bio-button {
+        margin-top: 30px;
+    }
+    #testimonials{
+        padding-top: 25px;
+    }
+    .testimonials-text-1{
+        font-size:27px;
+    }
+    .testimonials-line-1{
+        border-bottom: 3px solid #ceab6f;
+    }
+    .practice-description-1{
+        left:5vw;
+        width: 36.5vw;
+        margin-left:0;
+    }
+    .practice-description-2{
+        width: 40vw;
+    }
+    .practice-description-1, .practice-description-2, .practice-description-3{
+        font-size: 15.5px;
+    }
+    .testimonials-div-3{
+        padding: 46px 100px 120px;
+        font-size:15px;
+    }
+    .testimonials-div-1{
+        height: unset;
+    }
+    .contact-book {
+
+    }
+    .contact-pens {
+        display: none;
+    }
+    .contact-div-1 {
+        margin-left: 0px;
+    }
+    .contact-b-card-1 {
+        margin-left: -12px;
+        margin-top: -250px;
+        z-index: 1;
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    .contact-b-card-2 {
+        margin-left: -8px;
+        margin-top: -190px;
+        z-index: 0;
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg);
+    }
+    .contact-text-1{
+        font-size: 19px;
+        letter-spacing: unset;
+    }
+    .contact-div-2{
+        width: 400px;
+    }
+    .footer-text-2{
+        font-size: 9px;
+    }
+    .footer-2-div-1{
+        margin-left: 0px;
+    }
+    .footer-logo {
+        width: 339px;
+        margin-top: 36px;
+        margin-left: -116px;
+    }
+    .footer-minus-margin-left {
+        margin-left: -6px;
+    }
+}
 // Medium devices (tablets, 768px and up)
 @media (max-width: 991.98px) {
     #about-page,#inner{
@@ -11,6 +285,9 @@
     }
     .testimonials-div-1-border{
         margin-top:20px;
+    }
+    .main-block-text-3{
+        font-size: 29px;
     }
     .main-block-button-1{
 
@@ -50,7 +327,7 @@
         font-size: 25px;
     }
     .practice-arrow, .practice-arrow-2{
-        top:85%;
+        display: none;
     }
     .footer-text-align{
         text-align:center;
@@ -193,7 +470,6 @@
         font-size:16px;
         font-weight: 300;
         color: #003466;
-        line-height: 15px;
     }
     .bio-photo {
         display:none;
@@ -322,6 +598,7 @@
     .bio-text-1{
         font-size: 27px;
     }
+
     .bio-horizontal-line{
         border-bottom: 3px solid #ceab6f;
         width: 150px;
@@ -357,280 +634,7 @@
     }
  }
 
-// Large devices (desktops, 992px and up)
-@media (max-width: 1199.98px) {
-    .nav-item{
-        font-size:12px;
-    }
-    .innerpage-about-3 {
-        width: 50%;
-    }
-    .innerpage-about-2 {
-        width: 50%;
-    }
-    .innerpage-about-1 {
-        width: 25%;
-    }
-    .jcarousel-img-1,.jcarousel-img-2,.jcarousel-img-3,.jcarousel-img-4,.jcarousel-img-5,.jcarousel-img-6{
-        margin-top:0px;
-        height: 100px;
-    }
-    .nav-item{
-        margin: 0 35px;
-    }
-    .footer-text-align{
-        text-align:center;
-    }
-    .logo-block-call-div{
-       margin-left: 0px;
-    }
-    .logo-block-logo-div{
-        margin-left: 0px;
-    }
-    .logo-block-button-div{
-        margin-left:0px;
-    }
-    .main-block-1{
-        padding-top: 55px;
-    }
-    .main-block-text-3{
-        font-size: 41px;
-    }
-    .main-block-text-5{
-        font-size: 22px;
-        margin-left:0px;
-    }
-    .main-block-text-6{
-        font-size:28px;
-    }
-    .main-block-text-1, .main-block-text-2{
-        font-size: 31px;
-    }
-    .main{
-        height: 375px;
-    }
-    .main-img-1{
-        margin-top: 25px;
-        height: 350px;
-        margin-left: -82px;
-    }
-    .main-block-button-1{
-        margin-left: 0px;
-        margin-top: 0px;
-        padding: 18px 64px;
-        font-size: 16px;
-    }
-    .logo-block-text-1{
-        font-size:14px;
-    }
-    .logo-block-text-2{
-        font-size: 17px;
-    }
-    .logo-block-text-3{
-        font-size:12px;
-    }
-    .logo-image{
-        width: 300px;
-    }
-    .logo-block-text-4{
-        font-size: 7px;
-    }
-    .checkBox svg {
-        margin-left: -60px;
-    }
-    .logo-block-button{
-        margin-left: -81px;
-    }
-    .honors-text-1{
-        font-size: 26px;
-    }
-    .honors-text-3 {
-        margin-top: 15px;
-        font-size: 14px;
-    }
-    .honors-horizontal-line{
-        margin-left:355px;
-    }
-    .jcarousel-control-next{
-        left: 50%;
-        top: 152px;
-    }
 
-    .logo-block-button {
-        margin-left: -100px;
-        letter-spacing: 1px;
-        font-size: 12px;
-        color: #ceab6f;
-        line-height: 18px;
-        display: block;
-    }
-    .checkBox{
-        margin: 8px auto;
-    }
-    .logo-block{
-        height:85px;
-         }
-    .practice-img{
-        height: 285px;
-    }
-    .practice-text-3{
-        left: 5vw;
-    }
-    .practice-arrow,.practice-arrow-2{
-        left: 5vw;
-        top: 7vw;
-    }
-    .practice-div-4:hover .practice-text-4{
-        margin-left: 50px;
-    }
-    .about-text-1{
-        font-size: 22px;
-        margin-top:0px;
-        line-height: unset;
-    }
-    .about-text-2{
-        font-size: 16px;
-    }
-    .about-div-4{
-        padding-top: 40px;
-        margin-bottom: 200px;
-    }
-    .about-horizontal-line-1 {
-        border-bottom: 3px solid #ceab6f;
-        width: 120px;
-        margin-top: 16px;
-        margin-bottom: 20px;
-    }
-    .practice-text-1{
-        font-size:27px;
-    }
-    .practice-text-3, .practice-text-4{
-        font-size: 22px;
-    }
-    .practice-div-3:hover .practice-text-3, .practice-div-4:hover .practice-text-4{
-        margin-top:-260px;
-    }
-    .bio-div-1{
-        margin-top: 28px;
-    }
-    .about-text-5{
-        font-size: 20px;
-    }
-    .about-text-4{
-        font-size: 22px;
-        padding-top: 50px;
-        line-height: unset;
-    }
-    .about-div-2{
-        padding-bottom: 50px;
-    }
-    .about-button{
-        font-size: 14px;
-    }
-    .about-text-item-1{
-        font-size: 16px;
-    }
-    .about-text-item-2{
-        font-size: 12px;
-    }
-    .about-horizontal-line-2{
-        width: 129%;
-    }
-    .bio-photo {
-        height: 386px;
-        margin-top: 88px;
-        margin-left: -77px;
-    }
-    .bio-button{
-        margin-bottom: 38px;
-    }
-    .bio-text-1{
-        font-size: 38px;
-    }
-    .bio-text-2 {
-        font-size: 18px;
-        font-weight: 300;
-        color: #003466;
-        line-height: 15px;
-    }
-    .offer-div {
-        padding-top: 38px;
-    }
-    .bio-button {
-        margin-top: 30px;
-    }
-    #testimonials{
-        padding-top: 25px;
-    }
-    .testimonials-text-1{
-        font-size:27px;
-    }
-    .testimonials-line-1{
-        border-bottom: 3px solid #ceab6f;
-    }
-    .practice-description-1{
-        left:5vw;
-        width: 36.5vw;
-        margin-left:0;
-    }
-    .practice-description-2{
-        width: 45vw;
-    }
-    .practice-description-1, .practice-description-2, .practice-description-3{
-        font-size: 15.5px;
-    }
-    .testimonials-div-3{
-        padding: 46px 100px 120px;
-        font-size:15px;
-    }
-    .testimonials-div-1{
-        height: unset;
-    }
-    .contact-book {
-
-    }
-    .contact-pens {
-       display: none;
-    }
-    .contact-div-1 {
-        margin-left: 0px;
-    }
-    .contact-b-card-1 {
-        margin-left: -12px;
-        margin-top: -250px;
-        z-index: 1;
-        -webkit-transform: rotate(-5deg);
-        transform: rotate(-5deg);
-    }
-    .contact-b-card-2 {
-        margin-left: -8px;
-        margin-top: -190px;
-        z-index: 0;
-        -webkit-transform: rotate(-18deg);
-        transform: rotate(-18deg);
-    }
-    .contact-text-1{
-        font-size: 19px;
-        letter-spacing: unset;
-    }
-    .contact-div-2{
-        width: 400px;
-    }
-    .footer-text-2{
-        font-size: 9px;
-    }
-    .footer-2-div-1{
-        margin-left: 0px;
-    }
-    .footer-logo {
-        width: 339px;
-        margin-top: 36px;
-        margin-left: -116px;
-    }
-    .footer-minus-margin-left {
-        margin-left: -6px;
-    }
- }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and(max-width: 1620px){
     .nav-item{
@@ -986,6 +990,7 @@
     }
     .practice-arrow, .practice-arrow-2{
         top: 80%;
+        display: inherit;
     }
     .main-img-1{
         height: 333px;
