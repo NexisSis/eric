@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow:
+Disallow: /old
+
+Sitemap: http://mausnerlawfirm.com/sitemap.xml
