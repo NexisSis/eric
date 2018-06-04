@@ -277,6 +277,7 @@
 }
 // Medium devices (tablets, 768px and up)
 @media (max-width: 991.98px) {
+
     #about-page,#inner{
         padding-top: 140px;
     }
@@ -628,8 +629,8 @@
     .practice-description-1,.practice-description-2,.practice-description-3{
         text-align: left;
         margin-top: -188px;
-        margin-left: 7vw;
-        width: 75vw;
+        margin-left: 3vw;
+        width: 40vw;
     }
     .practice-div-3:hover .practice-text-3, .practice-div-4:hover .practice-text-4{
         margin-right: 60px;
@@ -1103,11 +1104,17 @@
     }
     .practice-description-1,.practice-description-2,.practice-description-3{
         text-align: left;
-        margin-left: 7.5vw;
         width: 76%;
         font-size: 12px;
         line-height: unset;
         margin-top: -130px;
+    }
+    .practice-description-1{
+        margin-left: 3.5vw;
+
+    }
+    .practice-description-2,.practice-description-3{
+        margin-left: 7.5vw;
     }
     .practice-div-3:hover .practice-text-3, .practice-div-4:hover .practice-text-4{
         margin-top:-170px;
