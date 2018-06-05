@@ -7,13 +7,13 @@
         font-size:12px;
     }
     .innerpage-about-3 {
-        width: 50%;
+        max-width: 25%;
     }
     .innerpage-about-2 {
-        width: 50%;
+        max-width: 25%;
     }
     .innerpage-about-1 {
-        width: 25%;
+        max-width: 25%;
     }
     .jcarousel-img-1,.jcarousel-img-2,.jcarousel-img-3,.jcarousel-img-4,.jcarousel-img-5,.jcarousel-img-6{
         margin-top:0px;
@@ -309,23 +309,23 @@
         margin-bottom: 50px;
     }
     .innerpage-header-bg{
-        display: none;
+       background-position-x: center;
     }
     .innerpage-div-1{
         width: 100%;
         margin-top:0px;
     }
     .innerpage-div-2{
-        width: 100%;
+        max-width: 100%;
     }
     .innerpage-about-3 {
-        width: 66.66666%;
+        max-width: 66.66666%;
     }
     .innerpage-about-2 {
-        width: 66.66666%;
+        max-width: 66.66666%;
     }
     .innerpage-about-1 {
-        width: 33.33333%;
+        max-width: 33.33333%;
     }
     .contact-text-1{
         font-size: 25px;
@@ -1195,20 +1195,36 @@
         text-align: center;
         margin-bottom: 0px;
     }
-    .about-mobile-1{
-        display: block;
+    #innerpage-img-2-mobile{
+        content:url("../img/innerpage-img-2-mobile.png");
     }
-    .about-mobile-2{
-        display: none;
+    #innerpage-img-5-mobile{
+        content:url("../img/innerpage-img-5-mobile.png");
+    }
+    #innerpage-img-7-mobile{
+        content:url("../img/innerpage-img-7-mobile.png");
+    }
+    #innerpage-img-11-mobile{
+        content:url("../img/innerpage-img-11-mobile.png");
+    }
+    .innerpage-header-bg{
+        background-image: url('../img/innerpage-header-bg-mobile.png');
+        height: 420px;
+    }
+
+    .innerpage-div-1{
+        margin-top: -250px;
+        margin-left:25px;
+        margin-right: 25px;
     }
     .innerpage-about-3 {
-        width: 100%;
+        max-width: 100%;
     }
     .innerpage-about-2 {
-        width: 100%;
+        max-width: 100%;
     }
     .innerpage-about-1 {
-        width: 50%;
+        max-width: 50%;
     }
     .contact-text-1{
         font-size: 21px;
@@ -1626,6 +1642,7 @@
     }
     #footer {
         height: unset;
+        padding-bottom: 25px;
     }
     .footer-text-align{
         margin-top: 25px;
@@ -1644,23 +1661,39 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .about-page-div-1, .about-page-div-8, .innerpage-div-1{
+    .about-page-div-1, .about-page-div-8{
         padding: 22px 35px;
+    }
+    .innerpage-div-1{
+        padding: 25px;
+        position: relative;
+        z-index: 2;
     }
     .about-page-text-2, .innerpage-text-2{
         margin-top: 25px;
         font-size: 14px;
     }
+    #inner{
+        background-color:#0f4c86;
+    }
     .innerpage-div-2{
-        padding:23px 35px;
+        padding: 60px 20px 19px;
+        margin-top: -50px;
+        line-height: unset;
+        position: relative;
+        z-index: 1;
+    }
+    .innerpage-div-3{
+        margin-top:15px;
     }
     .innerpage-text-3{
-        font-size:17px;
+        font-size: 15px;
     }
     .innerpage-button{
         border: 1px solid #fff;
         padding: 11px 18px;
-        font-size: 13px;
+        font-size: 14px;
+        color: white;
     }
     .innerpage-text-4{
         font-size:15px;
@@ -1721,6 +1754,11 @@
     }
     #inner img{
         height: 100%;
+    }
+    .innerpage-more-arrow{
+        margin-left: 20px;
+        display: inherit;
+        width: 40px!important;
     }
     .testimonials-div-1{
         width: 100vw;

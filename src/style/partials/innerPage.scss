@@ -36,7 +36,7 @@
   color:white;
 }
 .innerpage-div-2 {
-  width: 60%;
+  max-width: 60%;
   background-image: url(../img/innerpage-bg-2.png);
   background-repeat: no-repeat;
   background-position-x: right;
@@ -59,13 +59,13 @@
   margin-top: 35px;
 }
 .innerpage-about-1{
-  width: 15%;
+  max-width: 15%;
 }
 .innerpage-about-2{
-  width: 25%;
+  max-width: 25%;
 }
 .innerpage-about-3{
-  width: 30%;
+  max-width: 30%;
 }
 #inner {
   overflow: hidden;
@@ -81,7 +81,6 @@
   position: absolute;
   padding-left: 43px;
   padding-right: 43px;
-  width: inherit;
   line-height: 27px;
 }
 .innerpage-div-5{
@@ -96,12 +95,6 @@
   border-bottom: 1px solid white;
   width: 100px;
   margin-top: 6px;
-}
-.about-mobile-1{
-  display: none;
-}
-.about-mobile-2{
-  display: block;
 }
 .innerpage-button:hover{
   @extend .about-button:hover;

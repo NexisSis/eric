@@ -11,17 +11,17 @@
             <div class="contact-div-2 wow fadeIn">
                 <img class="contact-book" src="img/contact-book.png">
 
-                <form class="contact-from  pl-lg-5 pr-lg-5">
-                    <input required type="text" placeholder="Your name"><br>
-                    <input required type="tel" placeholder="Phone"><br>
-                    <input required type="email" placeholder="Email"><br>
-                    <select required>
+                <form action="sendmail.php"  method="post" class="contact-from  pl-lg-5 pr-lg-5">
+                    <input required name="name" type="text" placeholder="Your name"><br>
+                    <input required name="tel" type="tel" placeholder="Phone"><br>
+                    <input required name="email" type="email" placeholder="Email"><br>
+                    <select required name="isNewClient">
                             <option disabled selected="true" disabled="disabled"> Are u new client?</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                     </select><br>
-                    <textarea  placeholder="Message"></textarea>                  
-                    <input type="submit" value="send your message">
+                    <textarea  name="message" placeholder="Message"></textarea>
+                    <input type="submit" name="sumbit" value="send your message">
                     <div class="message"></div>
                 </form>
             </div>
