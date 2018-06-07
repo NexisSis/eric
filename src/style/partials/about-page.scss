@@ -2,13 +2,11 @@
   background-color: $main-block-blue ;
 }
 .about-page-header-bg{
-  @extend .innerpage-header-bg;
   background-image: url(../img/about-header-bg.png);
   background-size: cover;
   height: 270px;
 }
 .about-page-div-1{
-@extend .innerpage-div-1;
   width: 50%;
   background-image: url(../img/about-page-bg-text.png);
   background-size: cover;
