@@ -1,15 +1,40 @@
 <?php
 if(isset($_POST['submit'])){
     $to = "nexis.sis@gmail.com";
-    $from = $_POST['email'];
-    $name = $_POST['name'];
-    $message = $_POST['$message'];
-    $isNewClient = $_POST['isNewClient']
-    $headers = "From email:" . $from;
-    $message = "Name: ".$name." message: ". $message. " Is it new client?: ".$isNewClient;
-    mail($to,$subject,$message,$headers);
+    $error = NULL;
+    if(isset($_POST['email'])){
+        $from = $_POST['email'];
+    }else{
+        $error.="Email problem. ";
+    }
+    if(isset($_POST['name'])){
+         $name = $_POST['name'];
+    }else{
+        $error.="Name problem. ";
+    }
+    if(isset($_POST['message'])){
+         $message = $_POST['message'];
+    }else{
+        $error.="Message problem. ";
+    }
+    if(isset($_POST['isNewClient'])){
+        $isNewClient = $_POST['isNewClient'];
+    }
+    if(!isset($isNewClient)){
+        $isNewClient="yes";
+    }
+    $headers = "Eric Mausner WebSite";
 
-    echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+
+    $message = "Name: ".$name.". Email: ".$from." Is it new client?: ".$isNewClient.". Message: ". $message;
+
+    if( $error == NULL && mail($to,$subject,$message,$headers)){
+         echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+        }else{
+            echo "System Error. ".$error;
+        }
+
+
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
 ?>
