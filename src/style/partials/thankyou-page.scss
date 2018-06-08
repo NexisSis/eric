@@ -1,3 +1,39 @@
-#thank-you{
+.thank-you-main{
+  background-image: url(../img/thank-you-background.png);;
+  height: 75vh;
+  max-height: 100vh;
+  min-height: 40em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.thank-you-text-1{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #003466;
+}
+.thank-you-text-2{
+  display: block;
+  color: white;
+  background-color: #003466;
+  width: fit-content;
+  margin: auto;
+  padding: 0px 20px;
+}
+.thank-you-text-3{
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #003466;
+}
+.thank-you-text-4{
+  color: #ceab6f;
+}
 
+.thank-you-horizontal-line{
+  border-bottom: 5px solid #ceab6f;
+  width: 122px;
+  margin: auto;
 }

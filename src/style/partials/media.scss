@@ -277,7 +277,12 @@
 }
 // Medium devices (tablets, 768px and up)
 @media (max-width: 991.98px) {
-
+    .about-page-div-1{
+        margin-top:0px;
+    }
+    .about-page-header-bg{
+        display: none;
+    }
     #about-page,#inner{
         padding-top: 140px;
     }
@@ -920,11 +925,11 @@
     .about-page-ul-1, .about-page-ul-2{
         font-size: 13px;
     }
-    .about-page-div-5{
-        background-position-x: -270px;
-    }
     .about-page-div-1, .about-page-div-8{
         padding: 46px 47px 30px;
+    }
+    .about-page-div-5{
+        background-position-x: center;
     }
     .about-page-div-6{
         background-position-x: -275px;
