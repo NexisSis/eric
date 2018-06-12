@@ -81,7 +81,13 @@ gulp.task('js:build', function () {
 gulp.task('style:build', function () {
     gulp.src(path.src.style)
         .pipe(sourcemaps.init())
-        .pipe(sass())
+        .pipe(sass(
+            {
+            outputStyle: 'nested',
+            precision: 10,
+            includePaths: ['.'],
+            onError: console.error.bind(console, 'Sass error:')
+        }))
         .pipe(prefixer())
         .pipe(cssmin())
         .pipe(sourcemaps.write())
