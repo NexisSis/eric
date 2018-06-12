@@ -81,8 +81,8 @@
         $subject = 'New Client From Mausnerlawfirm';
         $SMTPMail = new SMTPClient ($SmtpServer, $SmtpPort, $SmtpUser, $SmtpPass, $from, $to, $subject, $message);
         $SMTPChat = $SMTPMail->SendMail();
-        if($error == NULL){
-             echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+        if($error == NULL && isset($SMTPChat)){
+             echo "<script>window.location.href='/thankyou.html'</script>";
             }else{
                 echo "System Error. ".$error;
             }
@@ -91,7 +91,7 @@
 
 
 
-        // You can also use header('Location: thank_you.php'); to redirect to another page.
+
     }
 ?>
 
