@@ -1,7 +1,11 @@
 // Large devices (desktops, 992px and up)
 @media (max-width: 1199.98px) {
-    #about-page, #content, #inner {
+    #about-page, #content, #inner,#thank-you {
         padding-top: 126px;
+    }
+
+    .thank-you-main{
+        background-position-x: center;
     }
     .nav-item{
         font-size:12px;
@@ -1156,7 +1160,7 @@
         padding-left:0px!important;
         padding-right:0px!important;
     }
-    #about-page, #content, #inner{
+    #about-page, #content, #inner,#thank-you{
         padding-top:94px;
     }
     .mobile-gradient{
@@ -1723,6 +1727,61 @@
     .about-page-ul-1, .about-page-ul-2{
         line-height: 29px;
     }
+    .thank-you-text-1,.thank-you-text-3{
+        font-size: 7vw;
+        text-align: left;
+    }
+    .thank-you-text-2{
+       margin:0px;
+    }
+    .thank-you-wrapper-3{
+        margin:0px;
+    }
+    .thank-you-text-4-mobile{
+        display: block;
+    }
+    .thank-you-img{
+        display: inherit!important;
+        position: absolute;
+        width: 15em;
+        right: -95px;
+        z-index: 0;
+    }
+    .thank-you-wrapper-2{
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    .thank-you-horizontal-line{
+        margin:unset;
+        width: 75px;
+    }
+    .thank-you-wrapper{
+        padding: 70px 35px;
+        z-index: 1;
+        position: relative;
+    }
+    .thank-you-main{
+        justify-content: start;
+    }
+    .thank-you-text-5{
+        font-size: 11px;
+        margin-top:11px;
+        margin-bottom: 11px;
+    }
+    .thank-you-main{
+        justify-content: start;
+        height: auto;
+        max-height: unset;
+        min-height: unset;
+    }
+    .thank-you-button{
+        border: 1px solid #003466;
+        padding: 7px 22px;
+        font-size: 13px;
+    }
+    .thank-you-wrapper{
+        background: linear-gradient(to top,#ffffff 11%,#fdf5f500 75%);
+    }
 }
 @media(max-width:1620px){
     .innerpage-div-4, .innerpage-div-5{
@@ -1829,5 +1888,10 @@
     }
     #footer-2{
         background-color: #003466;
+    }
+}
+@media(max-width: 1400px){
+    .thank-you-img{
+        display: none;
     }
 }
