@@ -75,8 +75,6 @@
             $isNewClient="yes";
         }
         $headers = "Eric Mausner WebSite";
-
-
         $message = "Name: ".$name.". Email: ".$from." Is it new client?: ".$isNewClient.". Message: ". $message;
         $subject = 'New Client From Mausnerlawfirm';
         $SMTPMail = new SMTPClient ($SmtpServer, $SmtpPort, $SmtpUser, $SmtpPass, $from, $to, $subject, $message);
@@ -86,12 +84,6 @@
             }else{
                 echo "System Error. ".$error;
             }
-
-
-
-
-
-
     }
 ?>
 
