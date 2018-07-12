@@ -1,5 +1,8 @@
 // Large devices (desktops, 992px and up)
 @media (max-width: 1199.98px) {
+    .main-logo-description{
+        display: none;
+    }
     #about-page, #content, #inner,#thank-you {
         padding-top: 126px;
     }
@@ -647,6 +650,28 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and(max-width: 1620px){
+    .main-logos {
+        padding: 7px 200px 7px 20px;
+        img{
+            width: 35px;
+        }
+    }
+    .main-logo-description-2 {
+        margin-top: -32px;
+        position: absolute;
+        border-bottom: 62px solid #003465;
+        height: 62px;
+    }
+    .main-logo-text{
+        font-size:10px;
+    }
+    .main-logos img:last-child{
+        width: 50px;
+    }
+    .main-logo-description{
+        margin-top: 275px;
+        margin-left: -300px;
+    }
     .nav-item{
         font-size:14px;
     }
