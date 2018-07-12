@@ -3,7 +3,6 @@
     #about-page, #content, #inner,#thank-you {
         padding-top: 126px;
     }
-
     .thank-you-main{
         background-position-x: center;
     }
@@ -196,7 +195,7 @@
         font-size: 35px;
     }
     .bio-text-2 {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 300;
         color: #003466;
         line-height: unset;
@@ -1889,5 +1888,11 @@
 @media(max-width: 1400px){
     .thank-you-img{
         display: none;
+    }
+}
+
+@media(max-width: 1300px){
+    .bio-text-1{
+        font-size: 25px;
     }
 }

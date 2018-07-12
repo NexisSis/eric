@@ -1,4 +1,4 @@
-.mobile-gradient{
+.main-block-1.mobile-gradient{
     display: none;
 }
 .main{
@@ -80,9 +80,46 @@
 }
 .main-block-1{
   padding-top: 110px;
-  margin-left: -36px;
 }
 .main-img-1{
   height: 514px;
   margin-top: 36px;
+  z-index: 1;
+  position: relative;
+}
+.main-logo-description{
+  position: absolute;
+  margin-top: 365px;
+  margin-left: -385px;
+}
+.main-logo-description-2{
+  width: 131px;
+  height: 93px;
+  padding-left: 8px;
+  padding-top: 10px;
+  margin-left: -5px;
+  margin-top: -32px;
+  position: absolute;
+  border-bottom: 90px solid #003465;
+  border-right: 50px solid transparent;
+  width: 155px;
+  z-index: 0;
+}
+.main-logo-text{
+  text-transform: uppercase;
+  font-weight: 400;
+  color:white;
+  font-size: 14px;
+}
+.main-logos{
+  background-color: white;
+  padding: 15px 200px 15px 20px;
+}
+
+.main-logos{
+  z-index: 1;
+  position: relative;
+  img{
+    margin-right: 30px;
+  }
 }
